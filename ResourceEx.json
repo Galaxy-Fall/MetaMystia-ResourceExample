@@ -1,0 +1,3729 @@
+{
+  "packInfo": {
+    "name": "MetaMystia 示例资源包",
+    "label": "ResourceExample",
+    "authors": [
+      "MetaMiku",
+      "ShigureYuki",
+      "AnYiEE",
+      "余烬特调",
+      "bringor",
+      "ABSO87",
+      "黑历史QwQ",
+      "拒绝神绮99次",
+      "山雏",
+      "昨夜惊梦"
+    ],
+    "description": "MetaMystia 示例资源包 ResourceExample",
+    "version": "0.5.4",
+    "license": "# MetaMystia 资源版权与使用许可说明\n\n本文件适用于 **MetaMystia** 项目\n 项目地址：**[MetaMikuAI/MetaMystia](https://github.com/MetaMikuAI/MetaMystia)**\n\n本资源包包含来自不同来源的内容，不同部分适用不同版权规则。请在使用或再分发前仔细阅读。\n\n\n## 一、原作版权声明\n\n本 Mod 为基于以下作品的**非官方同人二次创作**：\n\n- 《东方Project》上海爱丽丝幻乐团@ZUN\n- 《东方夜雀食堂》二色幽紫蝶\n- 《东方秋神牧场》二色幽紫蝶\n\n与上述作品相关的角色、名称、世界观设定等原始版权归原作者或原版权方所有。\n **MetaMystia 项目不对原作内容主张版权。**\n\n\n## 二、不属于本项目授权范围的游戏原始资源\n\n以下路径中的资源文件 **并非 MetaMystia 项目原创内容**，其美术资源版权归原游戏版权方所有。\n\n来自 **《东方夜雀食堂》二色幽紫蝶** 的资源：\n\n```\nassets/Character/9000/*\nassets/Character/9001/*\nassets/Character/9002/*\nassets/Character/9003/*\nassets/Character/9004/*\n```\n\n来自 **《东方秋神牧场》二色幽紫蝶** 的资源：\n\n```\nassets/Character/10000/Portrait/0.png\nassets/Character/10001/Portrait/0.png\nassets/Character/10002/Portrait/0.png\n```\n\n这些文件仅在原作者相关作品授权范围内使用，\n\n**不属于 MetaMystia 项目的原创资源，也不适用于下文的 CC 许可。**\n\nMetaMystia 项目不对这些资源授予任何再分发或二次创作授权。\n\n\n## 三、MetaMystia 项目原创资源许可\n\n除第二节列出的内容，其余由 **MetaMystia 项目组原创** 的资源均采用：\n\n> **Creative Commons Attribution–NonCommercial–ShareAlike 4.0 International\n>  (CC BY-NC-SA 4.0)**\n\n你可以在遵守该协议的前提下进行非商业使用、修改与再创作，并需署名且以相同许可共享。\n\n\n## 四、资源列表变更说明\n\nMetaMystia 项目会随着开发进展持续更新资源内容。上述“非原创资源列表”可能在未来版本中发生变动（增加或移除）。\n\n请始终以 **本文件在对应版本发布时的内容** 作为版权归属判断依据。若对某个文件的版权状态存在疑问，应视为**不属于默认 CC 授权范围**，除非有明确的原创或许可标注。\n\n\n## 五、免责声明\n\n本项目为非官方同人创作，与原作版权方无直接关联。\n\n如原版权方提出要求，项目可能对相关内容进行修改或移除。"
+  },
+  "characters": [
+    {
+      "id": 9000,
+      "name": "大妖精",
+      "label": "_Daiyousei",
+      "descriptions": [
+        "生活在雾之湖的连本名都成谜的奇妙妖精，似乎和琪露诺是好朋友，其他的情报就一概不知道了。",
+        "其实是个很细心又很热心肠的家伙呢。琪露诺虽然嘴上说着不在乎啊无所谓啊什么的，但我还是能看出来她内心深处对大酱很是依赖呢。",
+        "妖精们每天的生活想必会很有趣吧？如果从责任和义务这些角度来想，大酱她相比起其她妖精在这方面考虑得可能更多一些，但恰好是不至于负累又不会变成笨蛋的平衡点呢。真是让鸟脑袋都羡慕的生活态度啊。"
+      ],
+      "type": "Special",
+      "avatar": "assets/Character/9000/Avatar.png",
+      "portraits": [
+        {
+          "pid": 0,
+          "path": "assets/Character/9000/Portrait/0.png",
+          "label": "大妖精 微笑"
+        },
+        {
+          "pid": 1,
+          "path": "assets/Character/9000/Portrait/1.png",
+          "label": "大妖精 微笑张嘴"
+        },
+        {
+          "pid": 2,
+          "path": "assets/Character/9000/Portrait/2.png",
+          "label": "大妖精 低沉"
+        },
+        {
+          "pid": 3,
+          "path": "assets/Character/9000/Portrait/3.png",
+          "label": "大妖精 张嘴"
+        }
+      ],
+      "guest": {
+        "fundRangeLower": 300,
+        "fundRangeUpper": 500,
+        "evaluation": [
+          "如果只有这样的话……",
+          "呃，一会去找朋友要些果子垫垫肚子好了。",
+          "不过，老板娘你一定不止于此对吧。",
+          "好吃耶，老板娘你的手艺真好！",
+          "哇塞，下次我一定要带大家来一起分享！",
+          "喂！这完全就是黑店吧！！",
+          "抱歉……我身上只有这些了……",
+          "诶诶，老板娘，你干什么？",
+          "还是去找朋友们要点果子吃吧……"
+        ],
+        "conversation": [
+          "湖边的果子应该马上就熟透了吧？",
+          "一会和妖精朋友们去哪里玩好呢……",
+          "慧音老师又留了好多作业……好在来之前就写完了。",
+          "要把无限的日子投入到更加无限的乐趣之中去啊。"
+        ],
+        "foodRequests": [
+          {
+            "tagId": 7,
+            "request": "那些我最爱的东西——水和风都是没有味道的。"
+          },
+          {
+            "tagId": 17,
+            "request": "甜味是这个世界上最本质、最美好的味道。"
+          },
+          {
+            "tagId": 21,
+            "request": "我最喜欢湖面微凉的清风流过的感觉了。"
+          },
+          {
+            "tagId": 28,
+            "request": "整个世界的话，大概…只会比雾之湖大一点吧？"
+          },
+          {
+            "tagId": 31,
+            "request": "我们妖精偶尔会去湖畔果树林摘点果子吃。"
+          }
+        ],
+        "bevRequests": [],
+        "hateFoodTag": [22, 24],
+        "likeFoodTag": [
+          {
+            "tagId": 7,
+            "weight": 1
+          },
+          {
+            "tagId": 17,
+            "weight": 1
+          },
+          {
+            "tagId": 21,
+            "weight": 1
+          },
+          {
+            "tagId": 28,
+            "weight": 1
+          },
+          {
+            "tagId": 31,
+            "weight": 1
+          }
+        ],
+        "likeBevTag": [
+          {
+            "tagId": -1,
+            "weight": 1
+          },
+          {
+            "tagId": 0,
+            "weight": 1
+          },
+          {
+            "tagId": 3,
+            "weight": 1
+          },
+          {
+            "tagId": 11,
+            "weight": 1
+          },
+          {
+            "tagId": 13,
+            "weight": 1
+          },
+          {
+            "tagId": 16,
+            "weight": 1
+          }
+        ],
+        "spawn": [
+          {
+            "izakayaId": 10,
+            "relativeProb": 0.25,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 11,
+            "relativeProb": 0.25,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 12,
+            "relativeProb": 0.25,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 4000,
+            "relativeProb": 0.3,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 4001,
+            "relativeProb": 0.3,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 4002,
+            "relativeProb": 0.3,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          }
+        ]
+      },
+      "characterSpriteSetCompact": {
+        "name": "_Daiyousei",
+        "mainSprite": [
+          "assets/Character/9000/Sprite/Main_0, 0.png",
+          "assets/Character/9000/Sprite/Main_0, 1.png",
+          "assets/Character/9000/Sprite/Main_0, 2.png",
+          "assets/Character/9000/Sprite/Main_1, 0.png",
+          "assets/Character/9000/Sprite/Main_1, 1.png",
+          "assets/Character/9000/Sprite/Main_1, 2.png",
+          "assets/Character/9000/Sprite/Main_2, 0.png",
+          "assets/Character/9000/Sprite/Main_2, 1.png",
+          "assets/Character/9000/Sprite/Main_2, 2.png",
+          "assets/Character/9000/Sprite/Main_3, 0.png",
+          "assets/Character/9000/Sprite/Main_3, 1.png",
+          "assets/Character/9000/Sprite/Main_3, 2.png"
+        ],
+        "eyeSprite": [
+          "assets/Character/9000/Sprite/Eyes_0, 0.png",
+          "assets/Character/9000/Sprite/Eyes_0, 1.png",
+          "assets/Character/9000/Sprite/Eyes_0, 2.png",
+          "assets/Character/9000/Sprite/Eyes_0, 3.png",
+          "assets/Character/9000/Sprite/Eyes_1, 0.png",
+          "assets/Character/9000/Sprite/Eyes_1, 1.png",
+          "assets/Character/9000/Sprite/Eyes_1, 2.png",
+          "assets/Character/9000/Sprite/Eyes_1, 3.png",
+          "assets/Character/9000/Sprite/Eyes_2, 0.png",
+          "assets/Character/9000/Sprite/Eyes_2, 1.png",
+          "assets/Character/9000/Sprite/Eyes_2, 2.png",
+          "assets/Character/9000/Sprite/Eyes_2, 3.png",
+          "assets/Character/9000/Sprite/Eyes_3, 0.png",
+          "assets/Character/9000/Sprite/Eyes_3, 1.png",
+          "assets/Character/9000/Sprite/Eyes_3, 2.png",
+          "assets/Character/9000/Sprite/Eyes_3, 3.png",
+          "assets/Character/9000/Sprite/Eyes_4, 0.png",
+          "assets/Character/9000/Sprite/Eyes_4, 1.png",
+          "assets/Character/9000/Sprite/Eyes_4, 2.png",
+          "assets/Character/9000/Sprite/Eyes_4, 3.png",
+          "assets/Character/9000/Sprite/Eyes_5, 0.png",
+          "assets/Character/9000/Sprite/Eyes_5, 1.png",
+          "assets/Character/9000/Sprite/Eyes_5, 2.png",
+          "assets/Character/9000/Sprite/Eyes_5, 3.png"
+        ]
+      },
+      "kizuna": {
+        "lv1UpgradePrerequisiteEvent": "_Kizuna_Daiyousei_LV1_Upgrade_001_Event",
+        "lv2UpgradePrerequisiteEvent": "_Kizuna_Daiyousei_LV2_Upgrade_001_Event",
+        "lv3UpgradePrerequisiteEvent": "_Kizuna_Daiyousei_LV3_Upgrade_001_Event",
+        "lv4UpgradePrerequisiteEvent": "_Kizuna_Daiyousei_LV4_Upgrade_001_Event",
+        "lv1Welcome": ["_Kizuna_Daiyousei_welcome"],
+        "lv2Welcome": ["_Kizuna_Daiyousei_welcome"],
+        "lv3Welcome": ["_Kizuna_Daiyousei_welcome"],
+        "lv4Welcome": ["_Kizuna_Daiyousei_welcome"],
+        "lv5Welcome": ["_Kizuna_Daiyousei_welcome"],
+        "lv1ChatData": [
+          "_Kizuna_Daiyousei_LV1_Chat_001",
+          "_Kizuna_Daiyousei_LV1_Chat_002"
+        ],
+        "lv2ChatData": [
+          "_Kizuna_Daiyousei_LV2_Chat_001",
+          "_Kizuna_Daiyousei_LV2_Chat_002"
+        ],
+        "lv3ChatData": [
+          "_Kizuna_Daiyousei_LV3_Chat_001",
+          "_Kizuna_Daiyousei_LV3_Chat_002"
+        ],
+        "lv4ChatData": [
+          "_Kizuna_Daiyousei_LV4_Chat_001",
+          "_Kizuna_Daiyousei_LV4_Chat_002"
+        ],
+        "lv5ChatData": [
+          "_Kizuna_Daiyousei_LV4_Chat_001",
+          "_Kizuna_Daiyousei_LV4_Chat_002"
+        ],
+        "lv2InviteSucceed": ["_Kizuna_Daiyousei_Invite_Succeed"],
+        "lv2InviteFailed": ["_Kizuna_Daiyousei_Invite_Failed"],
+        "lv3InviteSucceed": ["_Kizuna_Daiyousei_Invite_Succeed"],
+        "lv3InviteFailed": ["_Kizuna_Daiyousei_Invite_Failed"],
+        "lv4InviteSucceed": ["_Kizuna_Daiyousei_Invite_Succeed"],
+        "lv4InviteFailed": ["_Kizuna_Daiyousei_Invite_Failed"],
+        "lv5InviteSucceed": ["_Kizuna_Daiyousei_Invite_Succeed"],
+        "lv3RequestIngerdient": ["_Kizuna_Daiyousei_Request_Ingerdient"],
+        "lv4RequestIngerdient": ["_Kizuna_Daiyousei_Request_Ingerdient"],
+        "lv5RequestIngerdient": ["_Kizuna_Daiyousei_Request_Ingerdient"],
+        "lv4RequestBeverage": ["_Kizuna_Daiyousei_Request_Beverage"],
+        "lv5RequestBeverage": ["_Kizuna_Daiyousei_Request_Beverage"],
+        "lv5Commision": ["_Kizuna_Daiyousei_Commision"],
+        "lv5CommisionFinish": ["_Kizuna_Daiyousei_Commision_Finish"],
+        "commisionAreaLabel": "ScarletMansion"
+      },
+      "faceInNoteBook": 0,
+      "spawnMarker": {
+        "mapLabel": "ScarletMansion",
+        "x": -10.81,
+        "y": -19.8,
+        "rotation": "Down"
+      }
+    },
+    {
+      "id": 9001,
+      "name": "小恶魔",
+      "label": "_Koakuma",
+      "descriptions": [
+        "满脸写着杂鱼样的恶魔少女，不过似乎一直很用力地强调自己的存在感呢。",
+        "是那位名为帕秋莉的魔法使的使魔，不过相比起主仆，看着更像冤家就是了。虽然明面上看起来对自家的主人们不屑一顾，但内心深处其实很在意红魔馆的大家呢。",
+        "还真是要强的性子啊。能看出来她虽不愿意承认，但还是非常在乎自己能不能得到肯定和拥有价值呢。不过我从帕秋莉那里得到的消息是她早就承认小恶魔作为一位助手的能力和水平了，只是在长久的相处之下不知道怎么去开这个口。或许，她只是在因为心里的那点傲气坚持着吧？"
+      ],
+      "type": "Special",
+      "avatar": "assets/Character/9001/Avatar.png",
+      "portraits": [
+        {
+          "pid": 0,
+          "path": "assets/Character/9001/Portrait/0.png"
+        },
+        {
+          "pid": 1,
+          "path": "assets/Character/9001/Portrait/1.png"
+        },
+        {
+          "pid": 2,
+          "path": "assets/Character/9001/Portrait/2.png"
+        },
+        {
+          "pid": 3,
+          "path": "assets/Character/9001/Portrait/3.png"
+        },
+        {
+          "pid": 4,
+          "path": "assets/Character/9001/Portrait/4.png"
+        }
+      ],
+      "guest": {
+        "fundRangeLower": 300,
+        "fundRangeUpper": 500,
+        "evaluation": [
+          "这甚至连图书馆做的饲料都比不上！",
+          "这样吗，也就只能比图书馆的伙食好一点了。",
+          "一般般。",
+          "偶尔找机会来这么一顿，惬意得很啊。",
+          "完美！这才叫完美…适合本姑娘的身份！",
+          "好呀你，连本姑娘的钱都敢骗？！",
+          "身上就带了这些……嘿嘿……",
+          "好不容易找到机会来一次来着……",
+          "诶诶？不至于吧！"
+        ],
+        "conversation": [
+          "帕秋莉…她不会突然从哪冒出来吧。",
+          "回去就找个机会实验下最新的超位魔法。",
+          "要怎么在妖精女仆之间建立威信呢…？",
+          "我闻到烧烤和好酒的味道了！"
+        ],
+        "foodRequests": [
+          {
+            "tagId": 0,
+            "request": "纯种恶魔自然是要吃肉的！"
+          },
+          {
+            "tagId": 5,
+            "request": "高贵的，强大的恶魔血统自然需要最珍贵的料理！"
+          },
+          {
+            "tagId": 8,
+            "request": "带劲的酒精可以触动恶魔的内心…不过需要一道好菜配合。"
+          },
+          {
+            "tagId": 13,
+            "request": "帕秋莉她最喜欢的味道就是这种外国风味…这次让本姑娘也试试。"
+          },
+          {
+            "tagId": 17,
+            "request": "书上说糖分可以快速补充因施法损耗的体力…才不是嘴馋呢。"
+          },
+          {
+            "tagId": 33,
+            "request": "图书馆严禁烟火，好不容易有了机会，本姑娘可得尝尝烧烤的滋味。"
+          },
+          {
+            "tagId": 34,
+            "request": "带点辣味的东西才能刺激本姑娘的味蕾！"
+          }
+        ],
+        "bevRequests": [],
+        "hateFoodTag": [7],
+        "likeFoodTag": [
+          {
+            "tagId": 0,
+            "weight": 1
+          },
+          {
+            "tagId": 5,
+            "weight": 1
+          },
+          {
+            "tagId": 8,
+            "weight": 1
+          },
+          {
+            "tagId": 13,
+            "weight": 1
+          },
+          {
+            "tagId": 17,
+            "weight": 1
+          },
+          {
+            "tagId": 33,
+            "weight": 1
+          },
+          {
+            "tagId": 34,
+            "weight": 1
+          }
+        ],
+        "likeBevTag": [
+          {
+            "tagId": 2,
+            "weight": 1
+          },
+          {
+            "tagId": 4,
+            "weight": 1
+          },
+          {
+            "tagId": 14,
+            "weight": 1
+          },
+          {
+            "tagId": 19,
+            "weight": 1
+          }
+        ],
+        "spawn": [
+          {
+            "izakayaId": 10,
+            "relativeProb": 0.25,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 11,
+            "relativeProb": 0.25,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 12,
+            "relativeProb": 0.25,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 1003,
+            "relativeProb": 0.2,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 1004,
+            "relativeProb": 0.2,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 1005,
+            "relativeProb": 0.2,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 2003,
+            "relativeProb": 0.2,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 2004,
+            "relativeProb": 0.2,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 2005,
+            "relativeProb": 0.2,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          }
+        ]
+      },
+      "characterSpriteSetCompact": {
+        "name": "_Koakuma",
+        "mainSprite": [
+          "assets/Character/9001/Sprite/Main_0, 0.png",
+          "assets/Character/9001/Sprite/Main_0, 1.png",
+          "assets/Character/9001/Sprite/Main_0, 2.png",
+          "assets/Character/9001/Sprite/Main_1, 0.png",
+          "assets/Character/9001/Sprite/Main_1, 1.png",
+          "assets/Character/9001/Sprite/Main_1, 2.png",
+          "assets/Character/9001/Sprite/Main_2, 0.png",
+          "assets/Character/9001/Sprite/Main_2, 1.png",
+          "assets/Character/9001/Sprite/Main_2, 2.png",
+          "assets/Character/9001/Sprite/Main_3, 0.png",
+          "assets/Character/9001/Sprite/Main_3, 1.png",
+          "assets/Character/9001/Sprite/Main_3, 2.png"
+        ],
+        "eyeSprite": [
+          "assets/Character/9001/Sprite/Eyes_0, 0.png",
+          "assets/Character/9001/Sprite/Eyes_0, 1.png",
+          "assets/Character/9001/Sprite/Eyes_0, 2.png",
+          "assets/Character/9001/Sprite/Eyes_0, 3.png",
+          "assets/Character/9001/Sprite/Eyes_1, 0.png",
+          "assets/Character/9001/Sprite/Eyes_1, 1.png",
+          "assets/Character/9001/Sprite/Eyes_1, 2.png",
+          "assets/Character/9001/Sprite/Eyes_1, 3.png",
+          "assets/Character/9001/Sprite/Eyes_2, 0.png",
+          "assets/Character/9001/Sprite/Eyes_2, 1.png",
+          "assets/Character/9001/Sprite/Eyes_2, 2.png",
+          "assets/Character/9001/Sprite/Eyes_2, 3.png",
+          "assets/Character/9001/Sprite/Eyes_3, 0.png",
+          "assets/Character/9001/Sprite/Eyes_3, 1.png",
+          "assets/Character/9001/Sprite/Eyes_3, 2.png",
+          "assets/Character/9001/Sprite/Eyes_3, 3.png",
+          "assets/Character/9001/Sprite/Eyes_4, 0.png",
+          "assets/Character/9001/Sprite/Eyes_4, 1.png",
+          "assets/Character/9001/Sprite/Eyes_4, 2.png",
+          "assets/Character/9001/Sprite/Eyes_4, 3.png",
+          "assets/Character/9001/Sprite/Eyes_5, 0.png",
+          "assets/Character/9001/Sprite/Eyes_5, 1.png",
+          "assets/Character/9001/Sprite/Eyes_5, 2.png",
+          "assets/Character/9001/Sprite/Eyes_5, 3.png"
+        ]
+      },
+      "faceInNoteBook": 0,
+      "spawnMarker": {
+        "mapLabel": "ScarletMansion",
+        "x": 25.7,
+        "y": -21.46
+      }
+    },
+    {
+      "id": 9002,
+      "name": "芙兰朵露",
+      "label": "_FlandreScarlet",
+      "descriptions": [
+        "传说中非常非常可怕的吸血鬼，妖精客人们一直提醒我要小心……虽然看起来明明是个小孩子嘛。",
+        "芙兰朵露小姐的心理….似乎真的就是一个没接触过世界的小孩子的呢。到底是因为吸血鬼的长寿天赋导致的心智发育缓慢，还是极少接触外人所导致的呢？",
+        "其实我还挺同情芙兰朵露小姐的。她的力量似乎成为了一份不可能挣脱的束缚，即使包括蕾米莉亚小姐在内的所有人的本意都是好的，可惜这不是一个能被“爱”或者“友善”改变的命题。不过，就这段时间的相处而言，“伙伴”似乎可以是答案之一哦？至于证明，就交给时间吧。"
+      ],
+      "avatar": "assets/Character/9002/Avatar.png",
+      "type": "Special",
+      "portraits": [
+        {
+          "pid": 0,
+          "path": "assets/Character/9002/Portrait/0.png",
+          "label": "芙兰 乐"
+        },
+        {
+          "pid": 1,
+          "path": "assets/Character/9002/Portrait/1.png",
+          "label": "芙兰 哀"
+        },
+        {
+          "pid": 2,
+          "path": "assets/Character/9002/Portrait/2.png",
+          "label": "芙兰 微笑"
+        },
+        {
+          "pid": 3,
+          "path": "assets/Character/9002/Portrait/3.png",
+          "label": "芙兰 微笑张嘴"
+        },
+        {
+          "pid": 4,
+          "path": "assets/Character/9002/Portrait/4.png",
+          "label": "芙兰 怒"
+        },
+        {
+          "pid": 5,
+          "path": "assets/Character/9002/Portrait/5.png",
+          "label": "芙兰 无表情"
+        },
+        {
+          "pid": 6,
+          "path": "assets/Character/9002/Portrait/6.png",
+          "label": "芙兰 无表情张嘴"
+        },
+        {
+          "pid": 7,
+          "path": "assets/Character/9002/Portrait/7.png",
+          "label": "芙兰 暴虐"
+        },
+        {
+          "pid": 8,
+          "path": "assets/Character/9002/Portrait/8.png",
+          "label": "芙兰 疯狂"
+        },
+        {
+          "pid": 9,
+          "path": "assets/Character/9002/Portrait/9.png",
+          "label": "芙兰 笑"
+        },
+        {
+          "pid": 10,
+          "path": "assets/Character/9002/Portrait/10.png",
+          "label": "芙兰 装可爱"
+        },
+        {
+          "pid": 11,
+          "path": "assets/Character/9002/Portrait/11.png",
+          "label": "芙兰 微笑张嘴2"
+        },
+        {
+          "pid": 12,
+          "path": "assets/Character/9002/Portrait/12.png",
+          "label": "芙兰 boss喜"
+        },
+        {
+          "pid": 13,
+          "path": "assets/Character/9002/Portrait/13.png",
+          "label": "芙兰 boss怒"
+        },
+        {
+          "pid": 14,
+          "path": "assets/Character/9002/Portrait/14.png",
+          "label": "芙兰 boss哀"
+        },
+        {
+          "pid": 15,
+          "path": "assets/Character/9002/Portrait/15.png",
+          "label": "芙兰 boss乐"
+        },
+        {
+          "pid": 16,
+          "path": "assets/Character/9002/Portrait/16.png",
+          "label": "芙兰 嘲讽"
+        },
+        {
+          "pid": 17,
+          "path": "assets/Character/9002/Portrait/17.png",
+          "label": "芙兰 怒2"
+        },
+        {
+          "pid": 18,
+          "path": "assets/Character/9002/Portrait/18.png",
+          "label": "芙兰 怒3"
+        }
+      ],
+      "guest": {
+        "fundRangeLower": 2500,
+        "fundRangeUpper": 3200,
+        "evaluation": [
+          "呸！难吃！",
+          "和女仆长送来的甜点一样无聊……",
+          "还有什么更有趣的吗？",
+          "嗯嗯嗯！好吃好吃。",
+          "哇！料理和星星一样会闪光耶——",
+          "哇啊——我再也不要来了——",
+          "诶？原来这些不够吗？",
+          "游戏时间结束了吗？",
+          "不玩就不玩，那么大脾气做什么嘛。"
+        ],
+        "conversation": [
+          "要一起玩嘛——",
+          "蓝蓝的，绿绿的，都是外界的颜色诶。",
+          "我是我，四个我加在一起也是我！",
+          "外面的世界看起来好脆弱……"
+        ],
+        "foodRequests": [
+          {
+            "tagId": 27,
+            "request": "有什么东西能比带着魔法的女仆长更神奇吗？"
+          },
+          {
+            "tagId": 20,
+            "request": "外面的世界好美……好想多记住一些。"
+          },
+          {
+            "tagId": 18,
+            "request": "没有做熟的食物和血散发着同一种味道呢。"
+          },
+          {
+            "tagId": 24,
+            "request": "可爱的玩偶总会玩腻的……想来点不一样的……"
+          },
+          {
+            "tagId": 34,
+            "request": "辣味是一种痛觉哦，喜欢！"
+          },
+          {
+            "tagId": 19,
+            "request": "世界肯定比我的房间大的多了！有什么有趣的东西吗？"
+          },
+          {
+            "tagId": 22,
+            "request": "姐姐从来不让我见到热辣辣的太阳，真好奇，好好奇呀。"
+          }
+        ],
+        "bevRequests": [],
+        "hateFoodTag": [],
+        "likeFoodTag": [
+          {
+            "tagId": 18,
+            "weight": 1
+          },
+          {
+            "tagId": 19,
+            "weight": 1
+          },
+          {
+            "tagId": 20,
+            "weight": 1
+          },
+          {
+            "tagId": 22,
+            "weight": 1
+          },
+          {
+            "tagId": 24,
+            "weight": 1
+          },
+          {
+            "tagId": 27,
+            "weight": 1
+          },
+          {
+            "tagId": 34,
+            "weight": 1
+          }
+        ],
+        "likeBevTag": [
+          {
+            "tagId": 1,
+            "weight": 1
+          },
+          {
+            "tagId": 2,
+            "weight": 1
+          },
+          {
+            "tagId": 4,
+            "weight": 1
+          },
+          {
+            "tagId": 12,
+            "weight": 1
+          },
+          {
+            "tagId": 14,
+            "weight": 1
+          }
+        ],
+        "spawn": [
+          {
+            "izakayaId": 6,
+            "relativeProb": 0.1,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 9,
+            "relativeProb": 0.1,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 7,
+            "relativeProb": 0.15,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 24,
+            "relativeProb": 0.15,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 8,
+            "relativeProb": 0.2,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 25,
+            "relativeProb": 0.2,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          }
+        ]
+      },
+      "characterSpriteSetCompact": {
+        "name": "_FlandreScarlet",
+        "mainSprite": [
+          "assets/Character/9002/Sprite/Main_0, 0.png",
+          "assets/Character/9002/Sprite/Main_0, 1.png",
+          "assets/Character/9002/Sprite/Main_0, 2.png",
+          "assets/Character/9002/Sprite/Main_1, 0.png",
+          "assets/Character/9002/Sprite/Main_1, 1.png",
+          "assets/Character/9002/Sprite/Main_1, 2.png",
+          "assets/Character/9002/Sprite/Main_2, 0.png",
+          "assets/Character/9002/Sprite/Main_2, 1.png",
+          "assets/Character/9002/Sprite/Main_2, 2.png",
+          "assets/Character/9002/Sprite/Main_3, 0.png",
+          "assets/Character/9002/Sprite/Main_3, 1.png",
+          "assets/Character/9002/Sprite/Main_3, 2.png"
+        ],
+        "eyeSprite": [
+          "assets/Character/9002/Sprite/Eyes_0, 0.png",
+          "assets/Character/9002/Sprite/Eyes_0, 1.png",
+          "assets/Character/9002/Sprite/Eyes_0, 2.png",
+          "assets/Character/9002/Sprite/Eyes_0, 3.png",
+          "assets/Character/9002/Sprite/Eyes_1, 0.png",
+          "assets/Character/9002/Sprite/Eyes_1, 1.png",
+          "assets/Character/9002/Sprite/Eyes_1, 2.png",
+          "assets/Character/9002/Sprite/Eyes_1, 3.png",
+          "assets/Character/9002/Sprite/Eyes_2, 0.png",
+          "assets/Character/9002/Sprite/Eyes_2, 1.png",
+          "assets/Character/9002/Sprite/Eyes_2, 2.png",
+          "assets/Character/9002/Sprite/Eyes_2, 3.png",
+          "assets/Character/9002/Sprite/Eyes_3, 0.png",
+          "assets/Character/9002/Sprite/Eyes_3, 1.png",
+          "assets/Character/9002/Sprite/Eyes_3, 2.png",
+          "assets/Character/9002/Sprite/Eyes_3, 3.png",
+          "assets/Character/9002/Sprite/Eyes_4, 0.png",
+          "assets/Character/9002/Sprite/Eyes_4, 1.png",
+          "assets/Character/9002/Sprite/Eyes_4, 2.png",
+          "assets/Character/9002/Sprite/Eyes_4, 3.png",
+          "assets/Character/9002/Sprite/Eyes_5, 0.png",
+          "assets/Character/9002/Sprite/Eyes_5, 1.png",
+          "assets/Character/9002/Sprite/Eyes_5, 2.png",
+          "assets/Character/9002/Sprite/Eyes_5, 3.png"
+        ]
+      },
+      "faceInNoteBook": 2,
+      "spawnMarker": {
+        "mapLabel": "ScarletMansion",
+        "x": 9.86,
+        "y": 12.7
+      }
+    },
+    {
+      "id": 9003,
+      "name": "八意永琳",
+      "label": "_YagokoroEirin",
+      "descriptions": [
+        "隐居在竹林深处的谜之存在，浑身散发着高贵但平和的气质，总是表现出在思考着什么的样子。",
+        "实际上是个很善良很温和的人啊。明明是“月之头脑”这么大的来头来着……完全感受不到架子呢，不过举手投足之间的高贵风范依然引人侧目就是了。",
+        "永远亭，月亮的子民，不死身……永琳小姐原来身上承担了这样多的责任吗？明明看起来只是一个技术超群的医师的说。可能所谓的“大人物”就是“承担着大责任的人物”吧？使命什么的……对于鸟脑袋来说比天上的月亮还让人摸不清楚啊。"
+      ],
+      "type": "Special",
+      "avatar": "assets/Character/9003/Avatar.png",
+      "portraits": [
+        {
+          "pid": 0,
+          "path": "assets/Character/9003/Portrait/0.png",
+          "label": "永琳 微笑"
+        },
+        {
+          "pid": 1,
+          "path": "assets/Character/9003/Portrait/1.png",
+          "label": "永琳 微笑张嘴"
+        },
+        {
+          "pid": 2,
+          "path": "assets/Character/9003/Portrait/2.png",
+          "label": "永琳 无表情"
+        },
+        {
+          "pid": 3,
+          "path": "assets/Character/9003/Portrait/3.png",
+          "label": "永琳 无表情张嘴"
+        }
+      ],
+      "guest": {
+        "fundRangeLower": 2000,
+        "fundRangeUpper": 2400,
+        "evaluation": [
+          "……不堪入目。",
+          "只比庸俗之人的作品好一点。",
+          "甚合心意，多谢款待。",
+          "优秀的料理可以治疗心病，受教了。",
+          "如此美味，竟如同神话一般的梦幻。",
+          "你还真是贪心不足啊……",
+          "抱歉，下次我会补上。",
+          "既然需要我离开，那我离开就好。",
+          "无妨。这只是永恒的生命中的一点波澜而已。"
+        ],
+        "conversation": [
+          "今夜的月亮比昨夜的更明亮。",
+          "满月究竟代表祥瑞还是代表灾厄？",
+          "公主想必也会喜欢这里的氛围。",
+          "人和妖怪原来可以以这种方式达成平衡吗……"
+        ],
+        "foodRequests": [
+          {
+            "tagId": 3,
+            "request": "如果拒绝接触家常些的东西的话，生命就会与现实疏离开来。"
+          },
+          {
+            "tagId": 4001,
+            "request": "微毒的食物很多可以入药，人们总是忘记这一点。"
+          },
+          {
+            "tagId": 5,
+            "request": "传说中的那些故事，在遥远的过去可能真实存在过。"
+          },
+          {
+            "tagId": 25,
+            "request": "即使拥有无限的生命，人的阅历也短于文明的尺度。"
+          },
+          {
+            "tagId": 29,
+            "request": "蝴蝶梦，梦蝴蝶……梦幻如现实，现实如梦幻。"
+          },
+          {
+            "tagId": 30,
+            "request": "穷尽天文的脑力，也不可能明晰整个世界的变数。在某个角落，总会藏着独特的惊喜。"
+          }
+        ],
+        "bevRequests": [],
+        "hateFoodTag": [18, 6],
+        "likeFoodTag": [
+          {
+            "tagId": -20,
+            "weight": 1
+          },
+          {
+            "tagId": 3,
+            "weight": 1
+          },
+          {
+            "tagId": 5,
+            "weight": 1
+          },
+          {
+            "tagId": 25,
+            "weight": 1
+          },
+          {
+            "tagId": 29,
+            "weight": 1
+          },
+          {
+            "tagId": 30,
+            "weight": 1
+          },
+          {
+            "tagId": 4001,
+            "weight": 1
+          }
+        ],
+        "likeBevTag": [
+          {
+            "tagId": 0,
+            "weight": 1
+          },
+          {
+            "tagId": 1,
+            "weight": 1
+          },
+          {
+            "tagId": 3,
+            "weight": 1
+          },
+          {
+            "tagId": 6,
+            "weight": 1
+          },
+          {
+            "tagId": 11,
+            "weight": 1
+          },
+          {
+            "tagId": 13,
+            "weight": 1
+          },
+          {
+            "tagId": 17,
+            "weight": 1
+          }
+        ],
+        "spawn": [
+          {
+            "izakayaId": 16,
+            "relativeProb": 0.1,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 22,
+            "relativeProb": 0.1,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 23,
+            "relativeProb": 0.1,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 14,
+            "relativeProb": 0.15,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 18,
+            "relativeProb": 0.15,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 19,
+            "relativeProb": 0.15,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 15,
+            "relativeProb": 0.1,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 21,
+            "relativeProb": 0.1,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 20,
+            "relativeProb": 0.1,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          }
+        ]
+      },
+      "characterSpriteSetCompact": {
+        "name": "_YagokoroEirin",
+        "mainSprite": [
+          "assets/Character/9003/Sprite/Main_0, 0.png",
+          "assets/Character/9003/Sprite/Main_0, 1.png",
+          "assets/Character/9003/Sprite/Main_0, 2.png",
+          "assets/Character/9003/Sprite/Main_1, 0.png",
+          "assets/Character/9003/Sprite/Main_1, 1.png",
+          "assets/Character/9003/Sprite/Main_1, 2.png",
+          "assets/Character/9003/Sprite/Main_2, 0.png",
+          "assets/Character/9003/Sprite/Main_2, 1.png",
+          "assets/Character/9003/Sprite/Main_2, 2.png",
+          "assets/Character/9003/Sprite/Main_3, 0.png",
+          "assets/Character/9003/Sprite/Main_3, 1.png",
+          "assets/Character/9003/Sprite/Main_3, 2.png"
+        ],
+        "eyeSprite": [
+          "assets/Character/9003/Sprite/Eyes_0, 0.png",
+          "assets/Character/9003/Sprite/Eyes_0, 1.png",
+          "assets/Character/9003/Sprite/Eyes_0, 2.png",
+          "assets/Character/9003/Sprite/Eyes_0, 3.png",
+          "assets/Character/9003/Sprite/Eyes_1, 0.png",
+          "assets/Character/9003/Sprite/Eyes_1, 1.png",
+          "assets/Character/9003/Sprite/Eyes_1, 2.png",
+          "assets/Character/9003/Sprite/Eyes_1, 3.png",
+          "assets/Character/9003/Sprite/Eyes_2, 0.png",
+          "assets/Character/9003/Sprite/Eyes_2, 1.png",
+          "assets/Character/9003/Sprite/Eyes_2, 2.png",
+          "assets/Character/9003/Sprite/Eyes_2, 3.png",
+          "assets/Character/9003/Sprite/Eyes_3, 0.png",
+          "assets/Character/9003/Sprite/Eyes_3, 1.png",
+          "assets/Character/9003/Sprite/Eyes_3, 2.png",
+          "assets/Character/9003/Sprite/Eyes_3, 3.png",
+          "assets/Character/9003/Sprite/Eyes_4, 0.png",
+          "assets/Character/9003/Sprite/Eyes_4, 1.png",
+          "assets/Character/9003/Sprite/Eyes_4, 2.png",
+          "assets/Character/9003/Sprite/Eyes_4, 3.png",
+          "assets/Character/9003/Sprite/Eyes_5, 0.png",
+          "assets/Character/9003/Sprite/Eyes_5, 1.png",
+          "assets/Character/9003/Sprite/Eyes_5, 2.png",
+          "assets/Character/9003/Sprite/Eyes_5, 3.png"
+        ]
+      },
+      "faceInNoteBook": 0,
+      "spawnMarker": {
+        "mapLabel": "BambooForest",
+        "x": -42.42,
+        "y": 8.82,
+        "rotation": "Right"
+      }
+    },
+    {
+      "id": 9004,
+      "name": "神绮",
+      "label": "_Shinki",
+      "descriptions": [
+        "魔界的造物者，某种意义上是所有魔界居民的母亲。性格温柔，深受魔界居民的景仰，对于魔界的管理基本采用了放任模式。虽然是个了不起的人物，但似乎有着天然呆的一面？",
+        "原本以为这样的大人物会很难交流，结果她却意外地好说话，有时甚至还跟小孩子一样……啊，这种事情果然还是保密吧！听说那个金发女仆是她亲手制作的，真厉害，我开始好奇她的一切了。",
+        "真是太让我震撼了。原来，她不仅是魔界之神，还是一位认真又有耐心的“创作者”，难怪能做出如此精致的“作品”。做菜也好，招待客人也罢，在追求精益求精这方面，我确实该向她学习呢。"
+      ],
+      "type": "Special",
+      "avatar": "assets/Character/9004/Avatar.png",
+      "portraits": [
+        {
+          "pid": 0,
+          "path": "assets/Character/9004/Portrait/0.png",
+          "label": "神绮改 微笑"
+        },
+        {
+          "pid": 1,
+          "path": "assets/Character/9004/Portrait/1.png",
+          "label": "神绮改 微笑张嘴"
+        },
+        {
+          "pid": 2,
+          "path": "assets/Character/9004/Portrait/2.png",
+          "label": "神绮改 无表情"
+        },
+        {
+          "pid": 3,
+          "path": "assets/Character/9004/Portrait/3.png",
+          "label": "神绮改 无表情张嘴"
+        }
+      ],
+      "guest": {
+        "fundRangeLower": 3000,
+        "fundRangeUpper": 3500,
+        "evaluation": [
+          "狗吃的都比这个好吧！",
+          "所谓的幻想乡大厨也不过如此。",
+          "嗯，中规中矩，我就勉为其难给个及格分吧。",
+          "真不错啊，虽然不是魔界风味，但也是我喜欢的味道呢。",
+          "太太太太太好吃了吧，必须推荐给魔界的大家！",
+          "区区麻雀，连本魔神都敢宰，是想体验一下神罚吗？",
+          "我的魔界支付说它要炸了……",
+          "呜啊，你这家伙，等着痛失魔界市场吧！",
+          "人间界的待客之道真是让我大开眼界，我们恐怕要后会无期了。"
+        ],
+        "conversation": [
+          "对我来说，“创造”是一件神圣的事，为作品注入灵魂，看着它从无到有，真是美妙啊。",
+          "啊，又有新的灵感了！",
+          "要是梦子酱和爱丽丝酱也在就好了……",
+          "很久以前，有一位僧侣被封印到了我所在的魔界。后来发生了什么？这是秘密。"
+        ],
+        "foodRequests": [
+          {
+            "tagId": 3,
+            "request": "平时梦子酱准备的料理都充满了家乡的味道呢"
+          },
+          {
+            "tagId": 4,
+            "request": "本魔神的用餐当然要高级感满满！"
+          },
+          {
+            "tagId": 5,
+            "request": "传说，曾有一位外界的高僧被封印在魔界......"
+          },
+          {
+            "tagId": 13,
+            "request": "爱丽丝，露易兹......我引以为傲的作品们都充满了西方色彩呢。"
+          },
+          {
+            "tagId": 17,
+            "request": "我的发圈看上去像樱桃一样甜，可惜不能吃"
+          },
+          {
+            "tagId": 27,
+            "request": "我所在的魔界也被称作不可思议之国哦！"
+          },
+          {
+            "tagId": 29,
+            "request": "甜美梦幻的童话世界，说的就是魔界呢"
+          }
+        ],
+        "bevRequests": [],
+        "hateFoodTag": [-21, 6, 18, 2000, 24],
+        "likeFoodTag": [
+          {
+            "tagId": 3,
+            "weight": 1
+          },
+          {
+            "tagId": 4,
+            "weight": 1
+          },
+          {
+            "tagId": 5,
+            "weight": 1
+          },
+          {
+            "tagId": 13,
+            "weight": 1
+          },
+          {
+            "tagId": 17,
+            "weight": 1
+          },
+          {
+            "tagId": 27,
+            "weight": 1
+          },
+          {
+            "tagId": 29,
+            "weight": 1
+          }
+        ],
+        "likeBevTag": [
+          {
+            "tagId": -1,
+            "weight": 1
+          },
+          {
+            "tagId": 11,
+            "weight": 1
+          },
+          {
+            "tagId": 12,
+            "weight": 1
+          },
+          {
+            "tagId": 13,
+            "weight": 1
+          },
+          {
+            "tagId": 17,
+            "weight": 1
+          }
+        ],
+        "spawn": [
+          {
+            "izakayaId": 1003,
+            "relativeProb": 0.2,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 1004,
+            "relativeProb": 0.2,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 1005,
+            "relativeProb": 0.2,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 5003,
+            "relativeProb": 0.35,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 5004,
+            "relativeProb": 0.35,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 5005,
+            "relativeProb": 0.35,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 3001,
+            "relativeProb": 0.1,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 3002,
+            "relativeProb": 0.1,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 3003,
+            "relativeProb": 0.1,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          }
+        ]
+      },
+      "characterSpriteSetCompact": {
+        "name": "_Shinki",
+        "mainSprite": [
+          "assets/Character/9004/Sprite/Main_0, 0.png",
+          "assets/Character/9004/Sprite/Main_0, 1.png",
+          "assets/Character/9004/Sprite/Main_0, 2.png",
+          "assets/Character/9004/Sprite/Main_1, 0.png",
+          "assets/Character/9004/Sprite/Main_1, 1.png",
+          "assets/Character/9004/Sprite/Main_1, 2.png",
+          "assets/Character/9004/Sprite/Main_2, 0.png",
+          "assets/Character/9004/Sprite/Main_2, 1.png",
+          "assets/Character/9004/Sprite/Main_2, 2.png",
+          "assets/Character/9004/Sprite/Main_3, 0.png",
+          "assets/Character/9004/Sprite/Main_3, 1.png",
+          "assets/Character/9004/Sprite/Main_3, 2.png"
+        ],
+        "eyeSprite": [
+          "assets/Character/9004/Sprite/Eyes_0, 0.png",
+          "assets/Character/9004/Sprite/Eyes_0, 1.png",
+          "assets/Character/9004/Sprite/Eyes_0, 2.png",
+          "assets/Character/9004/Sprite/Eyes_0, 3.png",
+          "assets/Character/9004/Sprite/Eyes_1, 0.png",
+          "assets/Character/9004/Sprite/Eyes_1, 1.png",
+          "assets/Character/9004/Sprite/Eyes_1, 2.png",
+          "assets/Character/9004/Sprite/Eyes_1, 3.png",
+          "assets/Character/9004/Sprite/Eyes_2, 0.png",
+          "assets/Character/9004/Sprite/Eyes_2, 1.png",
+          "assets/Character/9004/Sprite/Eyes_2, 2.png",
+          "assets/Character/9004/Sprite/Eyes_2, 3.png",
+          "assets/Character/9004/Sprite/Eyes_3, 0.png",
+          "assets/Character/9004/Sprite/Eyes_3, 1.png",
+          "assets/Character/9004/Sprite/Eyes_3, 2.png",
+          "assets/Character/9004/Sprite/Eyes_3, 3.png",
+          "assets/Character/9004/Sprite/Eyes_4, 0.png",
+          "assets/Character/9004/Sprite/Eyes_4, 1.png",
+          "assets/Character/9004/Sprite/Eyes_4, 2.png",
+          "assets/Character/9004/Sprite/Eyes_4, 3.png",
+          "assets/Character/9004/Sprite/Eyes_5, 0.png",
+          "assets/Character/9004/Sprite/Eyes_5, 1.png",
+          "assets/Character/9004/Sprite/Eyes_5, 2.png",
+          "assets/Character/9004/Sprite/Eyes_5, 3.png"
+        ]
+      },
+      "faceInNoteBook": 0,
+      "spawnMarker": {
+        "mapLabel": "BeastForest",
+        "x": 999,
+        "y": 999
+      }
+    },
+    {
+      "id": 10000,
+      "name": "秋静叶",
+      "label": "_AkiSizuha",
+      "descriptions": [
+        "掌管着红叶的神明。虽然说是神明，但平常看到她都是独自一人，完全没有一个神明该有的样子，倒像是很孤独的一幅模样呢。",
+        "她的妹妹是身为丰收之神的秋穰子，但貌似她并不怎么喜欢别人提及她的妹妹，似乎是由于她的妹妹比她更加受欢迎的缘故吧。不过她和她的妹妹一样，倒是挺喜欢甜食的。大概是因为红叶打扫起来很麻烦，信仰她的人也越来越少了，她貌似经常会为此苦恼。",
+        "虽然看起来很高冷，但实际上是一个很热情的神呢，这大概就是外冷内热吧？她似乎还很喜欢读书写作，只不过写出来的那些东西我基本上都看不懂。我可真是个鸟脑袋……改天还是多邀请她到店里坐坐吧。"
+      ],
+      "type": "Special",
+      "avatar": "assets/Character/10000/Avatar.png",
+      "portraits": [
+        {
+          "pid": 0,
+          "path": "assets/Character/10000/Portrait/0.png",
+          "label": "秋静叶 微笑"
+        }
+      ],
+      "guest": {
+        "fundRangeLower": 100,
+        "fundRangeUpper": 400,
+        "evaluation": [
+          "这就是，秋天的味道吗……",
+          "这味道……我真的不是在吃干枯的落叶吗……",
+          "普通的味道，仅限于能填饱肚子了。",
+          "真希望在整个秋天都能吃到这道菜。",
+          "如果能在秋天吃到这道菜，一切的悲伤都将不复存在吧。",
+          "我的钱可不是树上掉下的落叶！",
+          "我的钱变成秋天的落叶了……",
+          "要赶我走？难道我的存在会让店铺变得萧瑟吗？",
+          "是我的存在使得大家变得忧愁了吗？那我还是去别的店家看看吧。"
+        ],
+        "conversation": [
+          "制造落叶也是一件很累的工作呢。",
+          "什么时候我也能像妹妹那样子受欢迎呢。",
+          "飘零的落叶象征着未解的思绪……但是妹妹却用来烤红薯。"
+        ],
+        "foodRequests": [
+          {
+            "tagId": -2,
+            "request": "如果能少花点儿钱就好了。"
+          },
+          {
+            "tagId": 17,
+            "request": "甜美的味道，能让人忘却忧伤。"
+          },
+          {
+            "tagId": 21,
+            "request": "像秋天一样凉爽的食物，也是一个不错的选择呢。"
+          },
+          {
+            "tagId": 25,
+            "request": "自古逢秋悲寂寥……"
+          }
+        ],
+        "bevRequests": [],
+        "hateFoodTag": [0, 34, 2000, 6],
+        "likeFoodTag": [
+          {
+            "tagId": -2,
+            "weight": 1
+          },
+          {
+            "tagId": 17,
+            "weight": 1
+          },
+          {
+            "tagId": 21,
+            "weight": 1
+          },
+          {
+            "tagId": 25,
+            "weight": 1
+          }
+        ],
+        "likeBevTag": [
+          {
+            "tagId": 4,
+            "weight": 1
+          },
+          {
+            "tagId": 6,
+            "weight": 1
+          },
+          {
+            "tagId": 14,
+            "weight": 1
+          },
+          {
+            "tagId": 15,
+            "weight": 1
+          }
+        ],
+        "spawn": [
+          {
+            "izakayaId": 1001,
+            "relativeProb": 0.2,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 1000,
+            "relativeProb": 0.2,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 1002,
+            "relativeProb": 0.2,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          }
+        ]
+      },
+      "characterSpriteSetCompact": {
+        "name": "_AkiSizuha",
+        "mainSprite": [
+          "assets/Character/10000/Sprite/Main_0, 0.png",
+          "assets/Character/10000/Sprite/Main_0, 1.png",
+          "assets/Character/10000/Sprite/Main_0, 2.png",
+          "assets/Character/10000/Sprite/Main_1, 0.png",
+          "assets/Character/10000/Sprite/Main_1, 1.png",
+          "assets/Character/10000/Sprite/Main_1, 2.png",
+          "assets/Character/10000/Sprite/Main_2, 0.png",
+          "assets/Character/10000/Sprite/Main_2, 1.png",
+          "assets/Character/10000/Sprite/Main_2, 2.png",
+          "assets/Character/10000/Sprite/Main_3, 0.png",
+          "assets/Character/10000/Sprite/Main_3, 1.png",
+          "assets/Character/10000/Sprite/Main_3, 2.png"
+        ],
+        "eyeSprite": [
+          "assets/Character/10000/Sprite/Eyes_0, 0.png",
+          "assets/Character/10000/Sprite/Eyes_0, 1.png",
+          "assets/Character/10000/Sprite/Eyes_0, 2.png",
+          "assets/Character/10000/Sprite/Eyes_0, 3.png",
+          "assets/Character/10000/Sprite/Eyes_1, 0.png",
+          "assets/Character/10000/Sprite/Eyes_1, 1.png",
+          "assets/Character/10000/Sprite/Eyes_1, 2.png",
+          "assets/Character/10000/Sprite/Eyes_1, 3.png",
+          "assets/Character/10000/Sprite/Eyes_2, 0.png",
+          "assets/Character/10000/Sprite/Eyes_2, 1.png",
+          "assets/Character/10000/Sprite/Eyes_2, 2.png",
+          "assets/Character/10000/Sprite/Eyes_2, 3.png",
+          "assets/Character/10000/Sprite/Eyes_3, 0.png",
+          "assets/Character/10000/Sprite/Eyes_3, 1.png",
+          "assets/Character/10000/Sprite/Eyes_3, 2.png",
+          "assets/Character/10000/Sprite/Eyes_3, 3.png",
+          "assets/Character/10000/Sprite/Eyes_4, 0.png",
+          "assets/Character/10000/Sprite/Eyes_4, 1.png",
+          "assets/Character/10000/Sprite/Eyes_4, 2.png",
+          "assets/Character/10000/Sprite/Eyes_4, 3.png",
+          "assets/Character/10000/Sprite/Eyes_5, 0.png",
+          "assets/Character/10000/Sprite/Eyes_5, 1.png",
+          "assets/Character/10000/Sprite/Eyes_5, 2.png",
+          "assets/Character/10000/Sprite/Eyes_5, 3.png"
+        ]
+      },
+      "faceInNoteBook": 0,
+      "spawnMarker": {
+        "mapLabel": "DLC1_YoukaiMountain",
+        "x": -6.09,
+        "y": 12.39
+      }
+    },
+    {
+      "id": 10001,
+      "name": "秋穰子",
+      "label": "_AkiMinoriko",
+      "descriptions": [
+        "掌握着幻想乡所有作物的丰收之神，听说她在人间之里很受欢迎，大概是因为每当她时出现都能带来作物的丰收吧。似乎现在能买到价格实惠的食材，她也是功不可没呢。",
+        "明明是神明，但相处起来却非常容易，完全没有想象中那种身为神明该有的威严，是一个乐观开朗的神呢。和她的姐姐一样，似乎她也对甜食情有独钟，下一次招待她的话就多加点糖吧。",
+        "原来秋穰子小姐那么喜欢烤红薯的吗？毕竟是丰收的神明呢，说起来，她的身上好像一直有着一种香喷喷的烤红薯味，应该是用了某种特制香水吧？"
+      ],
+      "type": "Special",
+      "avatar": "assets/Character/10001/Avatar.png",
+      "portraits": [
+        {
+          "pid": 0,
+          "path": "assets/Character/10001/Portrait/0.png",
+          "label": "秋穰子 微笑"
+        }
+      ],
+      "guest": {
+        "fundRangeLower": 200,
+        "fundRangeUpper": 500,
+        "evaluation": [
+          "你究竟是怎么把食物烹饪得这么难吃的？简直是在浪费粮食！",
+          "这个……真的是食物吗？",
+          "做得不错，和我的烤红薯一样好吃。",
+          "原来食物还能这么美味吗？",
+          "能把食物烹饪得这么好吃，就连食物自己也会高兴的吧！",
+          "呜呜呜，你怎么觉得我会有那么多钱的！",
+          "看来以后还是少来这里吃饭吧……",
+          "我可是丰收之神！你不能这样对我！",
+          "好可怕……我还是回家吃烤红薯吧……"
+        ],
+        "conversation": [
+          "红薯的话，烤一烤后会很好吃的！",
+          "不知道这家店的食物做得有没有我的烤红薯好吃呢？"
+        ],
+        "foodRequests": [
+          {
+            "tagId": 3,
+            "request": "家常菜也是很美味的。"
+          },
+          {
+            "tagId": 9,
+            "request": "食物的存在，就是为了能够让人们填饱肚子啊。"
+          },
+          {
+            "tagId": -2,
+            "request": "有时候价格高昂的食品会让人望而止步哦。"
+          },
+          {
+            "tagId": 17,
+            "request": "要是有能像烤红薯一样甜美的食物就好了。"
+          },
+          {
+            "tagId": 33,
+            "request": "用火烤制出来的食物，一般都不会难吃吧。"
+          }
+        ],
+        "bevRequests": [],
+        "hateFoodTag": [10, 11, 6, 2000],
+        "likeFoodTag": [
+          {
+            "tagId": -2,
+            "weight": 1
+          },
+          {
+            "tagId": 3,
+            "weight": 1
+          },
+          {
+            "tagId": 9,
+            "weight": 1
+          },
+          {
+            "tagId": 17,
+            "weight": 1
+          },
+          {
+            "tagId": 33,
+            "weight": 1
+          }
+        ],
+        "likeBevTag": [
+          {
+            "tagId": 0,
+            "weight": 1
+          },
+          {
+            "tagId": 12,
+            "weight": 1
+          },
+          {
+            "tagId": 13,
+            "weight": 1
+          }
+        ],
+        "spawn": [
+          {
+            "izakayaId": 1001,
+            "relativeProb": 0.2,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 1000,
+            "relativeProb": 0.2,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 1002,
+            "relativeProb": 0.2,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          }
+        ]
+      },
+      "characterSpriteSetCompact": {
+        "name": "_AkiMinoriko",
+        "mainSprite": [
+          "assets/Character/10001/Sprite/Main_0, 0.png",
+          "assets/Character/10001/Sprite/Main_0, 1.png",
+          "assets/Character/10001/Sprite/Main_0, 2.png",
+          "assets/Character/10001/Sprite/Main_1, 0.png",
+          "assets/Character/10001/Sprite/Main_1, 1.png",
+          "assets/Character/10001/Sprite/Main_1, 2.png",
+          "assets/Character/10001/Sprite/Main_2, 0.png",
+          "assets/Character/10001/Sprite/Main_2, 1.png",
+          "assets/Character/10001/Sprite/Main_2, 2.png",
+          "assets/Character/10001/Sprite/Main_3, 0.png",
+          "assets/Character/10001/Sprite/Main_3, 1.png",
+          "assets/Character/10001/Sprite/Main_3, 2.png"
+        ],
+        "eyeSprite": [
+          "assets/Character/10001/Sprite/Eyes_0, 0.png",
+          "assets/Character/10001/Sprite/Eyes_0, 1.png",
+          "assets/Character/10001/Sprite/Eyes_0, 2.png",
+          "assets/Character/10001/Sprite/Eyes_0, 3.png",
+          "assets/Character/10001/Sprite/Eyes_1, 0.png",
+          "assets/Character/10001/Sprite/Eyes_1, 1.png",
+          "assets/Character/10001/Sprite/Eyes_1, 2.png",
+          "assets/Character/10001/Sprite/Eyes_1, 3.png",
+          "assets/Character/10001/Sprite/Eyes_2, 0.png",
+          "assets/Character/10001/Sprite/Eyes_2, 1.png",
+          "assets/Character/10001/Sprite/Eyes_2, 2.png",
+          "assets/Character/10001/Sprite/Eyes_2, 3.png",
+          "assets/Character/10001/Sprite/Eyes_3, 0.png",
+          "assets/Character/10001/Sprite/Eyes_3, 1.png",
+          "assets/Character/10001/Sprite/Eyes_3, 2.png",
+          "assets/Character/10001/Sprite/Eyes_3, 3.png",
+          "assets/Character/10001/Sprite/Eyes_4, 0.png",
+          "assets/Character/10001/Sprite/Eyes_4, 1.png",
+          "assets/Character/10001/Sprite/Eyes_4, 2.png",
+          "assets/Character/10001/Sprite/Eyes_4, 3.png",
+          "assets/Character/10001/Sprite/Eyes_5, 0.png",
+          "assets/Character/10001/Sprite/Eyes_5, 1.png",
+          "assets/Character/10001/Sprite/Eyes_5, 2.png",
+          "assets/Character/10001/Sprite/Eyes_5, 3.png"
+        ]
+      },
+      "faceInNoteBook": 0,
+      "spawnMarker": {
+        "mapLabel": "DLC1_YoukaiMountain",
+        "x": -4.91,
+        "y": 12.39
+      }
+    },
+    {
+      "id": 10002,
+      "name": "八云蓝",
+      "label": "_YakumoRan",
+      "descriptions": ["使役式神程度的能力", "", ""],
+      "type": "Special",
+      "avatar": "assets/Character/10002/Avatar.png",
+      "portraits": [
+        {
+          "pid": 0,
+          "path": "assets/Character/10002/Portrait/0.png",
+          "label": "八云蓝 微笑"
+        }
+      ],
+      "faceInNoteBook": 0,
+      "spawnMarker": {
+        "mapLabel": "BeastForest",
+        "x": 999,
+        "y": 999
+      }
+    }
+  ],
+  "dialogPackages": [
+    {
+      "name": "_Kizuna_Daiyousei_LV1_001",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 6,
+          "position": "Right",
+          "text": "<i>（走近看，发现这里其实是一个画着大妖精的立牌。）</i>"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 6,
+          "position": "Right",
+          "text": "<i>（画工很精湛，你第一时间甚至没看出来这只是一张牌子。）</i>"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 22,
+          "position": "Right",
+          "text": "欸？大酱不在这里吗？跑到哪里去了……"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "大家久等了，我回来啦——"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 15,
+          "position": "Right",
+          "text": "<i>（随着一阵雾气弥漫，熟悉的绿色娇小身影在你眼前一闪而过。）</i>"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "老板娘来了啊。正好，看看我这次带回来了什么！"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "这个是魔法森林里野生的桃子，这个是红魔馆果园里长势最好的几串葡萄！啊，妖精的日常，最宝贵的就是这些东西啊。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 21,
+          "position": "Right",
+          "text": "这么做真的不会被看守抓住吗……"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "哎呀不会的！红魔馆的那个门番平常完全不会管事的，看守葡萄园的那几个地精每天也不知道在想什么。至于那些桃树——那些本来就是妖精们的家园啊。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Right",
+          "text": "所以大酱，你这次是出门摘果子去了？"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "妖精也是要吃饭的嘛。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Right",
+          "text": "对了，这是什么？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Right",
+          "text": "（一个棕色的坛子，抱在大妖精怀里。从手臂轻微的颤抖来看并不轻。）"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "是让果子变得更脆更好吃的魔法哦。老板娘不妨猜猜看？"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "一条提示：这是蕴含了清凉的魔法琼浆哦——"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 12,
+          "position": "Right",
+          "text": "让我想想……"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "是山泉水！冰镇过的果子肯定会更甜几分的。"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "老板娘猜对了哦，这正是我从妖怪之山取来的山泉水。果子吃之前用它泡一段时间，比单纯的加冰块会更多一层自然的风味。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 12,
+          "position": "Right",
+          "text": "如果用这样的果子做成料理……"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "老板娘你的内心独白流露出来了欸。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 18,
+          "position": "Right",
+          "text": "……"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 11,
+          "position": "Right",
+          "text": "不过，山泉水泡过的果子做成果盘会不会真的又好看又好吃呢？"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "老板娘你要不要试试？这些果子和山泉水拿去。事先说明，作为天使投资人，一定要让我第一个尝尝哦~"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "嗯，一定！"
+        }
+      ]
+    },
+    {
+      "name": "_Kizuna_Daiyousei_LV1_002",
+      "dialogList": [
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "果然有不一样的味道呢。冰镇水果什么的和果切拼盘最配了——"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 9,
+          "position": "Right",
+          "text": "所以，大酱那次提到的“天使投资人”到底是什么？鸟脑袋不知道呀。"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "嗯……慧音老师在课堂上提到的一个词，老实说我也没太搞懂。不过，大概是那个意思就行啦。"
+        }
+      ]
+    },
+    {
+      "name": "_Kizuna_Daiyousei_LV2_001",
+      "dialogList": [
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Left",
+          "text": "想到湖边去玩水……"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 22,
+          "position": "Right",
+          "text": "话说起来，为什么即使是在夏天，湖畔那边也一直会有一片结冰的水域呢？"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "可能是因为琪露诺酱整天在那里活动吧。妖精们在同一个地方呆太久的话，会让这个地方染上自己的特性的。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 5,
+          "position": "Right",
+          "text": "怪不得……每次琪露诺酱一来我店里，整个店面的温度都会低上那么一截。"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "那个单纯只是琪露诺酱没控制好自己的能力吧……"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Left",
+          "text": ""
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 10,
+          "position": "Right",
+          "text": "话说回来，大酱觉得自己的特性是什么呢？"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Left",
+          "text": "我吗？我倒是没太想过，似乎我走过的地方也没什么特别之处呢。"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "这个问题有点太深奥了啦……自我本质，个人印象什么的……"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 10,
+          "position": "Right",
+          "text": "大酱不好奇吗？"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "其实这种东西很难自己研究啦……很多东西自己都习以为常了。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 9,
+          "position": "Right",
+          "text": "如果可以的话，找出自己潜意识的思维倾向，可能会有点帮助。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Right",
+          "text": "不如……就从刚刚玩水的话题说起吧。提起雾之湖，你会想到什么？"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Left",
+          "text": "嗯……清凉的湖水，夜晚的萤火……哦对了，雾之湖的鱼最好吃了。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 20,
+          "position": "Right",
+          "text": "鱼？烤鱼吗？确实想想就要让人流口水了呢……"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "不是烤鱼，雾之湖的鱼不太适合烤……不过如果是交给人间之里的厨师们去料理的话，味道还是不错的。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 11,
+          "position": "Right",
+          "text": "那大酱你最喜欢什么样的鱼料理呢？"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "我想想……口味清淡一点的吧。我记得曾经吃到过一份鱼料理，据师傅说是把带来的鱼肉打碎，和豆腐，土豆什么的混合在一起下锅油炸。"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "成品出来色泽金黄，入口鲜嫩多汁，而且更多的是鱼肉的本味。"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "啊，现在想起来突然发现这个料理真的很对我的胃口。好像叫什么……鱼饼来着？"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "老板娘，你能重现这道料理吗？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "好啊，记得来店里做客哦~我带着鱼饼等你的到来。"
+        }
+      ]
+    },
+    {
+      "name": "_Kizuna_Daiyousei_LV2_002",
+      "dialogList": [
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "啊……就是这个味道！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "原来大酱你喜欢这种口味啊。倒是很符合你外表平静内心丰富的样子呢。"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "原来大家是这样看我的吗……也不错。那就谢谢老板娘啦！"
+        }
+      ]
+    },
+    {
+      "name": "_Kizuna_Daiyousei_LV3_001",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 21,
+          "position": "Right",
+          "text": "（似乎又是那个见过的立牌。这一次，上面贴了一张纸条）"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 21,
+          "position": "Right",
+          "text": "（纸条上有娟秀但是略微有点七扭八歪的字迹）"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 10,
+          "position": "Right",
+          "text": "（米斯琪：来竹林找我。一个人。尽快。越快越好。地图如下。）"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 11,
+          "position": "Right",
+          "text": "（落款是大妖精和一个简单的大妖精头像，连带翅膀）"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 22,
+          "position": "Right",
+          "text": "大酱……？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 17,
+          "position": "Right",
+          "text": "不管怎么样，到那边看看就知道了。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 17,
+          "position": "Right",
+          "text": "……"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 6,
+          "position": "Right",
+          "text": "（跟随地图的指引，找到了一架绳梯。借由这架绳梯越过了一座悬崖，进入了竹林内部。）"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 7,
+          "position": "Right",
+          "text": "该说不说，这家伙还挺细心的。不过为什么我身为夜雀妖怪但是不会飞啊……"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "老板娘？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 15,
+          "position": "Right",
+          "text": "大酱？你怎么在这？"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "这是我第一次跑这么远……传说竹林深处藏着月光的精华，老板娘你看，是不是这个东西？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 10,
+          "position": "Right",
+          "text": "（大酱手里握着一束金黄色的美丽植物。）"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "我认识这个……书上说，这个叫做月光草，是月光凝结而成的珍贵之物。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "哇，真是漂亮。真的有月光的宁静而圣洁的感觉呢。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 11,
+          "position": "Right",
+          "text": "所以，你就是为了月光草跑到竹林这边来？还搞得这么神神秘秘的？"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "嘘……总要有点冒险精神嘛。瞧啊，它多美。"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "书上说，月光草是一种极其罕见的食材。在上古年代，能够品尝一份由月光草所制作的料理是无上的享受呢。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 15,
+          "position": "Right",
+          "text": "诶？！难道说这么漂亮的植物竟然可以做成料理吗？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 12,
+          "position": "Right",
+          "text": "月光草的味道是什么样子的呢……？"
+        }
+      ]
+    },
+    {
+      "name": "_Kizuna_Daiyousei_LV3_002",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "原来是这样……清淡柔顺如同月光一样，真不愧是传说中的食材。"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "用什么来配它好呢……既然是竹林的特产，不如就借用竹子的一缕清香吧。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 20,
+          "position": "Right",
+          "text": "然后是主料……蒸蛋如何？用平凡的料理手法去制作一份不一样的料理。"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "有道理！平常的做法才能突出月光草的本来滋味嘛。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 11,
+          "position": "Right",
+          "text": "最后加入一点白果创造一丝不同的味道……有了！就这样做！"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "哇哦，真是想想都期待……那我就期待你的精彩发挥了老板娘！"
+        }
+      ]
+    },
+    {
+      "name": "_Kizuna_Daiyousei_LV3_003",
+      "dialogList": [
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "那一趟探险真是太值了……"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 10,
+          "position": "Right",
+          "text": "大酱你在说什么？"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "嘿嘿，还真是味觉上和记忆上都值得回味的冒险呢。美好原来可以如此简单……谢谢款待啦老板娘！"
+        }
+      ]
+    },
+    {
+      "name": "_Kizuna_Daiyousei_LV4_001",
+      "dialogList": [
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "哎呀——每天的事情都多到想让人学会分身术的程度啊——"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "倒也不是无聊吧，只是——乱花渐欲迷人眼啊——"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "真是让人眼红的烦恼呢。"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "对于妖精来说，每一天都是一样的节日呢。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Right",
+          "text": "说到乐趣，大酱平常都喜欢做些什么呢？"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "我嘛，最近迷上了画画，偶尔还会出去探探险。自从竹林那一趟之后，我发现我越来越喜欢出远门的感觉了。"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "下次一定要拉着琪露诺酱一起去！"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "老板娘你呢，你喜欢什么？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "可能……料理和摇滚乐吧？开个演唱会是我一直以来的梦想。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Right",
+          "text": "为了这个梦想，我会一直努力，直到它实现的那一天！"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "梦想啊……对于妖精来说是没有这个概念的哦。"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "即使是琪露诺酱整天挂在嘴边的“最强”，也只是一个愿望，并不是一个真正的梦想。"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "那点微妙的差别对于妖精来说就是有和无，稳定和飘渺。"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "毕竟，妖精的生命实在是太漫长了，漫长到再深刻的记忆都会模糊哦。"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Left",
+          "text": "对于寿命有限的生灵来说，生命中最美好的一分钟和最平淡的一分钟，都是不可能再回来，不可能再重复的奇迹了。"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "正是这一点在困扰我啊——妖精的寿命可是和大自然一样悠久的。"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "对于无限来讲，又去哪里找最高和最低，又拿什么记住无穷无尽的瞬间呢？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 17,
+          "position": "Right",
+          "text": "……"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 17,
+          "position": "Right",
+          "text": "好复杂……大酱的心里竟然有这么复杂的想法吗……"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Right",
+          "text": "不过，这次我认为，大酱的话不对哦。"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "怎么说？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Right",
+          "text": "重要和重要，之间也是有着差别的呢。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 9,
+          "position": "Right",
+          "text": "就像买东西要付钱一样，买东西和付钱都很重要，但是它们总不是一样的。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "为什么不试着给自己找个目标呢？比如，演唱会？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "比演唱会更远的未来很长，但是那和现在的我没什么关系呀。而度过演唱会之后，为了它所做出的一切努力都可以被简化成努力的意义，而新的未来又有了新的、复杂的意义。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 10,
+          "position": "Right",
+          "text": "虽然演唱会到现在为止依然飘渺，但是我会为了这个目标一直努力的！"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Left",
+          "text": "……"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Right",
+          "text": "……"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Left",
+          "text": "……"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "好像……说的没错诶。"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "如果用这种方法的话，好像确实可以让日子变得更简单。谢谢你啦，老板娘。"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "对了，说到演唱会，演唱会的门票可以给我留一张吗？我会满怀热情的去期待的。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "太好了！我会热情的欢迎每一位朋友的到来！"
+        }
+      ]
+    },
+    {
+      "name": "_Kizuna_Daiyousei_welcome",
+      "dialogList": [
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "今天晚饭吃什么？这是一个终极哲学问题～"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "每天都要保持好心情！\n"
+        }
+      ]
+    },
+    {
+      "name": "_Kizuna_Daiyousei_LV1_Chat_001",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Right",
+          "text": "是那天在食堂里见到过的妖精小姐诶。原来就住在这附近吗？"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "哦，是深夜食堂的老板娘啊。叫我大妖精或者大酱就好。这附近，雾之湖周围的这么大一片区域，都可以是我的家。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 9,
+          "position": "Right",
+          "text": "好羡慕这种自由自在的生活。另外，以“大妖精”自称，真的不会造成混淆吗？明明妖精有这么多……"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "妖精有很多，不过我只有一个。名字什么的无所谓啦。"
+        }
+      ]
+    },
+    {
+      "name": "_Kizuna_Daiyousei_LV1_Chat_002",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 10,
+          "position": "Right",
+          "text": "既然雾之湖的妖精这么多，大酱你是怎么记住其中的每一个的呢？"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "没必要记住每一个呀。大家都是妖精，骨子里是同源的。区别也就是有的有人类小孩那么大，有的只有人类巴掌那么小而已。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 21,
+          "position": "Right",
+          "text": "这样真的不会造成沟通不顺畅吗？"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "其实我们妖精很简单，轻松的日常和谁过都是一样的。大家都是一家人，没有人会带着坏心思。至于那些更复杂更紧密的关系，挨个再记住不就好了嘛。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 21,
+          "position": "Right",
+          "text": "好朴素的人际关系……"
+        }
+      ]
+    },
+    {
+      "name": "_Kizuna_Daiyousei_LV2_Chat_001",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 9,
+          "position": "Right",
+          "text": "妖精们每天的生活一定都很丰富多彩吧。"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "也不是啦……不过和我所了解过的人类的生活相比，我们妖精的生活确实……压力要小一些。"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "路边摘个果子就能当一顿饭，河畔清一片草坪就能睡个午觉什么的。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 9,
+          "position": "Right",
+          "text": "哪怕是以妖怪的视角来看，这也是不可思议的生活啊……"
+        }
+      ]
+    },
+    {
+      "name": "_Kizuna_Daiyousei_LV2_Chat_002",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 12,
+          "position": "Right",
+          "text": "这篇湖畔到底生活着多少妖精呢？"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "不太好统计……妖精的日常是处在不断地变化之中的。"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "有可能你今天结交的朋友明天就会变成另一副样子。"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "当然啦，她还是同一个她，只是换了一个外形——对于妖精来说，就和换了一身衣服一样稀松平常。"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "当然，有的妖精不会这样做，比如我和琪露诺酱他们。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 17,
+          "position": "Right",
+          "text": "怪不得我认人眼睛都要认花了也没记住呀……"
+        }
+      ]
+    },
+    {
+      "name": "_Kizuna_Daiyousei_LV3_Chat_001",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 17,
+          "position": "Right",
+          "text": "会飞真好啊。虽然完全不知道为什么身为鸟类的妖怪却不会飞。"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "对于妖精来说，飞行相比起交通来说更多的是娱乐吧。"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "飞在天上的话，看到的风景和正常人看到的是完全不一样的呢。"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "那是一个非常宝贵，非常珍惜的视角，越过表象去看本质什么的。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 7,
+          "position": "Right",
+          "text": "大酱又在说听不懂的话了……"
+        }
+      ]
+    },
+    {
+      "name": "_Kizuna_Daiyousei_LV3_Chat_002",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 22,
+          "position": "Right",
+          "text": "为什么要皱着眉头？是有什么事不合心意吗？"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Left",
+          "text": "啊，倒是没什么……"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Left",
+          "text": "只是，美好的事情太多，不知道该怎么记住。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 17,
+          "position": "Right",
+          "text": "鸟脑袋完全没有这方面的概念呢。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Right",
+          "text": "不过，偶尔积攒了太多的情绪的话，不妨试试唱歌哦~"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 9,
+          "position": "Right",
+          "text": "就像这样~咿~啦~"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Right",
+          "text": "咿—啦—"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "啊，唱歌这门技巧果然还是更适合鸟类妖怪呢。"
+        }
+      ]
+    },
+    {
+      "name": "_Kizuna_Daiyousei_LV4_Chat_001",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 12,
+          "position": "Right",
+          "text": "妖精的寿命到底有多长呢？"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "妖精是自然的化身。可能大自然的寿命有多长，妖精的寿命就有多长吧。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 15,
+          "position": "Right",
+          "text": "哇……这么长的一生，见到的事情一定比妖怪们和人类们多得多吧。"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "其实，该说谢谢吗？自然赋予了我们没那么强大的记忆力和没那么灵光的思维，让我们可以方便的忘掉一些已经不需要再被记住的东西。"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "不然的话，光是那么多不会分开的朋友，恐怕都要记的发狂了吧。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 15,
+          "position": "Right",
+          "text": "好深奥的话……"
+        }
+      ]
+    },
+    {
+      "name": "_Kizuna_Daiyousei_LV4_Chat_002",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Right",
+          "text": "这本书是哪里来的？"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "好像……是从……诶呀，不记得了，只记得是一个蛮远蛮荒芜的地方。"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "捡到的时候就是这么破破烂烂的，不过好在里面的内容有一部分还能阅读。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 21,
+          "position": "Right",
+          "text": "“哲……学……”，是这么发音的吗？据说是一门很深奥的学科。"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "其实读起来还蛮有趣的。像故事书一样，但是又比故事书玄妙得多。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 21,
+          "position": "Right",
+          "text": "破破烂烂的，真的不会影响阅读吗？"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "其实还是丢了不少内容的……不过，圆满未必比不圆满更好，月有阴晴圆缺。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 15,
+          "position": "Right",
+          "text": "这也是书里的内容吗？！"
+        }
+      ]
+    },
+    {
+      "name": "_Kizuna_Daiyousei_Invite_Succeed",
+      "dialogList": [
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "蜂蜜……浆果……鲜花……"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Right",
+          "text": "诶？在想什么？"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "欸嘿嘿，人生的终极命题……一会吃什么……"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "大酱说的这些，我店里都有哦？今晚要不要来做客呢？"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "好呀，到时候我一定准时拜访！"
+        }
+      ]
+    },
+    {
+      "name": "_Kizuna_Daiyousei_Invite_Failed",
+      "dialogList": [
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Left",
+          "text": "蜂蜜……浆果……鲜花……"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Right",
+          "text": "诶？在想什么？"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "欸嘿嘿，人生的终极命题……一会吃什么……"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "大酱说的这些，我店里都有哦？今晚要不要来做客呢？"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Left",
+          "text": "如果我能抽出时间的话就来吧。"
+        }
+      ]
+    },
+    {
+      "name": "_Kizuna_Daiyousei_Request_Ingerdient",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 19,
+          "position": "Right",
+          "text": "大酱？在练习画画啊。"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 3,
+          "position": "Left",
+          "text": "哇啊！\n"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "哦是老板娘啊，真是吓了我一跳。"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "来看看我画的怎么样？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 15,
+          "position": "Right",
+          "text": "哇哦~这堆果子简直和真的一样。连光泽都完美的保留下来了哎。"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "嘿嘿，画画的时候如果倾注自己的感受的话，作品会更好看哦。"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "比如这些食材都是我喜欢的，自然的就会画的更讨喜更美味一点。"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "正好，这张画完成了，这些食材就送给老板娘你吧，记得用这些食材做出美味的料理哦~"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "那就谢谢大酱啦~"
+        }
+      ]
+    },
+    {
+      "name": "_Kizuna_Daiyousei_Request_Beverage",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 19,
+          "position": "Right",
+          "text": "这些饮料是……？"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "哦，这是我给妖精伙伴们摆的小小地摊。偶尔相互分享些好东西也是不错的嘛。"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "<i>（路过的妖精）大酱——这个我就拿走啦——</i>"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "好——"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 16,
+          "position": "Right",
+          "text": "我也可以拿吗？"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "可以呀——大家都是朋友啦。"
+        }
+      ]
+    },
+    {
+      "name": "_Kizuna_Daiyousei_Commision",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "好多果子……这些都是雾之湖这一带出产的吗？"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "没错哦。这一片的果树最近长势很喜人呢。"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "要是把这些果子做成菜，不知道是什么样的美味……"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "嘿嘿。我们妖精是很有品位哒。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 9,
+          "position": "Right",
+          "text": "可以给我一些吗……作为料理用途？"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Left",
+          "text": "抱歉……这些果子是给妖精伙伴们准备的。"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Left",
+          "text": "不过嘛，给老板娘你弄些食材也不是不可以。"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 2,
+          "position": "Left",
+          "text": "我在这附近搜集一些吧。大概在老板娘你开始营业之前就能送到。"
+        },
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "嘻嘻，从一个妖怪，人类，甚至是那些神神秘秘的贤者都找不到的地方弄到的食材哦~"
+        }
+      ]
+    },
+    {
+      "name": "_Kizuna_Daiyousei_Commision_Finish",
+      "dialogList": [
+        {
+          "characterId": 9000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "文案还没写 >_<"
+        }
+      ]
+    }
+  ],
+  "ingredients": [
+    {
+      "id": 11000,
+      "name": "金箔",
+      "description": "用高纯度黄金反复捶打制成的食材，能让食物看起来更加昂贵。",
+      "level": 4,
+      "prefix": 0,
+      "isFish": false,
+      "isMeat": false,
+      "isVeg": false,
+      "baseValue": 64,
+      "tags": [-3, 4, 20],
+      "spritePath": "assets/Ingredient/11000.png"
+    },
+    {
+      "id": 11001,
+      "name": "椰子",
+      "description": "不知道从哪流入的外来食材，坚硬的外壳下有美味的果肉和丰富的汁水。",
+      "level": 2,
+      "prefix": 0,
+      "isFish": false,
+      "isMeat": false,
+      "isVeg": false,
+      "baseValue": 8,
+      "tags": [17, 31],
+      "spritePath": "assets/Ingredient/11001.png"
+    },
+    {
+      "id": 11002,
+      "name": "仙人掌",
+      "description": "浑身长满刺的食材，需要细心处理后才能食用。",
+      "level": 2,
+      "prefix": 0,
+      "isFish": false,
+      "isMeat": false,
+      "isVeg": true,
+      "baseValue": 4,
+      "tags": [2, 2000],
+      "spritePath": "assets/Ingredient/11002.png"
+    },
+    {
+      "id": 11003,
+      "name": "大葱",
+      "description": "人间之里产的食材，十分常见。作为调味品或是直接吃都是个不错的选择。",
+      "level": 1,
+      "prefix": 0,
+      "isFish": false,
+      "isMeat": false,
+      "isVeg": true,
+      "baseValue": 1,
+      "tags": [2, 34],
+      "spritePath": "assets/Ingredient/11003.png"
+    },
+    {
+      "id": 11004,
+      "name": "大蒜",
+      "description": "人间之里产的食材，十分常见。传闻对吸血鬼有独特的杀伤力。",
+      "level": 1,
+      "prefix": 0,
+      "isFish": false,
+      "isMeat": false,
+      "isVeg": true,
+      "baseValue": 1,
+      "tags": [34, 2],
+      "spritePath": "assets/Ingredient/11004.png"
+    },
+    {
+      "id": 11005,
+      "name": "玉米",
+      "description": "人间之里产的食材，十分常见。既可以作为主食，也可以拿来煲汤。",
+      "level": 1,
+      "prefix": 0,
+      "isFish": false,
+      "isMeat": false,
+      "isVeg": true,
+      "baseValue": 1,
+      "tags": [17, 2, 3],
+      "spritePath": "assets/Ingredient/11005.png"
+    },
+    {
+      "id": 11006,
+      "name": "炼乳",
+      "description": "经过精炼的奶制品，具备非同寻常的甜度，适合用来制作甜点一类的料理。",
+      "level": 3,
+      "prefix": 0,
+      "isFish": false,
+      "isMeat": false,
+      "isVeg": false,
+      "baseValue": 35,
+      "tags": [17],
+      "spritePath": "assets/Ingredient/11006.png"
+    },
+    {
+      "id": 11007,
+      "name": "棉花糖",
+      "description": "直接拿来吃或者用来做菜都非常不错的小零食，很受孩子们的欢迎。",
+      "level": 2,
+      "prefix": 0,
+      "isFish": false,
+      "isMeat": false,
+      "isVeg": false,
+      "baseValue": 15,
+      "tags": [17, 20],
+      "spritePath": "assets/Ingredient/11007.png"
+    }
+  ],
+  "foods": [
+    {
+      "id": 11000,
+      "name": "山泉双色果盘",
+      "description": "山泉水的冰镇作用让果子不会太甜，口感清凉温润，同时也能延长保存时间，让其鲜艳色彩保存得更久一点，不会变色。",
+      "level": 2,
+      "baseValue": 45,
+      "tags": [-5, 2, 17, 8, 28],
+      "banTags": [0, 22],
+      "spritePath": "assets/Food/11000.png"
+    },
+    {
+      "id": 11001,
+      "name": "鱼饼",
+      "description": "相比来自东方的原版鱼饼口味更清淡一些，外形上也针对雾之湖的鱼种进行了调整。是一道非常不错的解酒小吃，也很受孩子们的喜欢。",
+      "level": 3,
+      "baseValue": 52,
+      "tags": [-7, 1, 3, 8],
+      "banTags": [2],
+      "spritePath": "assets/Food/11001.png"
+    },
+    {
+      "id": 11002,
+      "name": "白果灵盅",
+      "description": "简单而美观的茶碗蒸，使用白果替换了雾之湖少见的鲜虾，口味相比一般的茶碗蒸更显清淡。月光草作为点缀，为本来平凡的蒸蛋增加了一丝闪烁的灵光。如果放在上古时代，大概会是难得一见的名贵菜肴吧。",
+      "level": 4,
+      "baseValue": 98,
+      "tags": [-6, 4, 5, -3, 20, 25, 27, 7],
+      "banTags": [6, 0, -1],
+      "spritePath": "assets/Food/11002.png"
+    },
+    {
+      "id": 11003,
+      "name": "恶魔的甜甜圈",
+      "description": "形似甜甜圈而长了一对恶魔的角，说是甜品而其实完全就是芝士口味的汉堡包。不过由于中间有洞，吃的时候要尤其留意不要弄脏了衣服。",
+      "level": 2,
+      "baseValue": 48,
+      "tags": [-7, 0, 15, 6, 23],
+      "banTags": [],
+      "spritePath": "assets/Food/11003.png"
+    },
+    {
+      "id": 11004,
+      "name": "正义执行雕塑",
+      "description": "高甜度巧克力所制作雕塑，似乎描绘的是一道大笑着的黑红色身影将一道粉色的身影踩在脚下的景象。不过吃掉这个雕塑不就代表着破坏掉这个“正义执行”嘛……",
+      "level": 3,
+      "baseValue": 92,
+      "tags": [-5, 17, 13, 20],
+      "banTags": [15],
+      "spritePath": "assets/Food/11004.png"
+    },
+    {
+      "id": 11005,
+      "name": "超位·业火烧烤宴",
+      "description": "利用火焰魔法和束缚魔法固定住肉类然后烧烤的料理，视觉特效上值得满分。不过出于某人的奇妙心理，这道料理使用了超位级魔法，导致每次烹饪都像烟花表演。",
+      "level": 4,
+      "baseValue": 136,
+      "tags": [-8, 8, 0, 9, 15, 23, 35, 22],
+      "banTags": [31],
+      "spritePath": "assets/Food/11005.png"
+    },
+    {
+      "id": 11006,
+      "name": "甜心三明治",
+      "description": "超级猎奇口味的三明治，外表做得五颜六色很可爱，然而内里的味道简直令人咋舌。或许有些人会喜欢吧……",
+      "level": 1,
+      "baseValue": 35,
+      "tags": [-5, 0, 1, 24, 34],
+      "banTags": [],
+      "spritePath": "assets/Food/11006.png"
+    },
+    {
+      "id": 11007,
+      "name": "毛茸茸蘑菇汤",
+      "description": "利用了散碎的棉花糖模拟了绵羊般毛茸茸外表的西式汤。毛茸茸的表层下面是猩红色的肉汤，入口是极具侵略性和力量感的野味。是外表很可爱然而实际很暴力的料理呢。",
+      "level": 3,
+      "baseValue": 68,
+      "tags": [-9, 0, 10, 9, 16, 23, 26],
+      "banTags": [],
+      "spritePath": "assets/Food/11007.png"
+    },
+    {
+      "id": 11008,
+      "name": "血色下午茶",
+      "description": "对蕾米莉亚一顿普通下午茶的模仿。区别是本来的熟成牛排被替换成了更贴近小孩子口味的蜜汁牛肉，配套的煎蛋也换成了全熟。顺带一提，最正宗的做法是牛排三分甚至一分熟。",
+      "level": 4,
+      "baseValue": 105,
+      "tags": [-7, 9, 0, 6, 4, 18, 17, 30],
+      "banTags": [],
+      "spritePath": "assets/Food/11008.png"
+    },
+    {
+      "id": 11009,
+      "name": "月见饼",
+      "description": "月之都为了纪念一位伟人而流传的零食。外形圆润如满月，口感细腻松软，带着淡淡的甜香，很适合小朋友食用。",
+      "level": 1,
+      "baseValue": 35,
+      "tags": [28, 17, -5, 25, 30],
+      "banTags": [0, 1],
+      "spritePath": "assets/Food/11009.png"
+    },
+    {
+      "id": 11010,
+      "name": "玉色良汤",
+      "description": "永琳所研发的药膳，口味带着一丝苦味的清甜。可以通肺止咳，化瘀补气，适合虚弱的病人食用。",
+      "level": 2,
+      "baseValue": 55,
+      "tags": [3, 32, 7, 17, -6],
+      "banTags": [34, 6],
+      "spritePath": "assets/Food/11010.png"
+    },
+    {
+      "id": 11011,
+      "name": "星月桃子糕",
+      "description": "给食欲不振的病人开胃的甜点，使用了幻昙华和月光草模拟了星光和月光，而桃子的甜香底味可以很好的刺激病人的胃口，又不至于过于刺激。是非常精致又非常贴心的甜点呢，不愧是月之头脑的作品。",
+      "level": 3,
+      "baseValue": 68,
+      "tags": [20, 27, 17, 28, -5, 25, 12],
+      "banTags": [0],
+      "spritePath": "assets/Food/11011.png"
+    }
+  ],
+  "beverages": [
+    {
+      "id": 11000,
+      "name": "姜汁汽水",
+      "description": "露易兹去人间界旅游时，从西方国家带回的气泡饮料，经过魔界各位的品尝之后获得了一致好评。使用苏打水、薄荷以及生姜萃取物混合而成，和普通的苏打水相比，增添了一份生姜的辛辣。舞对此进行改良，使用魔法制作的特殊冰块为气泡更增添了一份层次感。值得一提的是，虽然名称叫做“Ginger Ale”，但是却不含酒精。",
+      "level": 2,
+      "baseValue": 40,
+      "tags": [16, 14, -1, 3, 19, 11],
+      "spritePath": "assets/Beverage/11000.png"
+    },
+    {
+      "id": 11001,
+      "name": "根汁啤酒",
+      "description": "露易兹去人间界旅游时从西方国家带回的气泡饮料，经过魔界各位的品尝之后获得了比较微妙的评价。使用树根提取物作为香精添加进汽水中，在禁酒令推行时期作为啤酒的替代品非常受欢迎。在根汁啤酒的传统制作流程中，杯子的选择是最重要的一环：最正宗的根汁啤酒必须盛放在啤酒同款的大号玻璃马克杯中，并且提前在冷库中冻上一整天。舞对此进行改良，使用魔法将马克杯表面冻得刚好结上一层霜，省去了繁杂的步骤。喝起来的味道非常奇妙，一向喜欢吃甜食的雪如此评价道：“就像是在吃可乐和香草味道的牙膏……”值得一提的是，虽然名称叫做“Root Beer”，外表看起来也像啤酒，但是却不含酒精。",
+      "level": 2,
+      "baseValue": 65,
+      "tags": [16, -1, 13, 3, 11],
+      "spritePath": "assets/Beverage/11001.png"
+    }
+  ],
+  "recipes": [
+    {
+      "id": 11000,
+      "foodId": 11000,
+      "ingredients": [21, 36],
+      "cookTime": 3,
+      "cookerType": "CuttingBoard"
+    },
+    {
+      "id": 11001,
+      "foodId": 11001,
+      "ingredients": [11, 6, 5],
+      "cookTime": 4,
+      "cookerType": "Fryer"
+    },
+    {
+      "id": 11002,
+      "foodId": 11002,
+      "ingredients": [0, 22, 33, 31],
+      "cookTime": 5,
+      "cookerType": "Steamer"
+    },
+    {
+      "id": 11003,
+      "foodId": 11003,
+      "ingredients": [30, 2, 2002],
+      "cookTime": 4,
+      "cookerType": "Fryer"
+    },
+    {
+      "id": 11004,
+      "foodId": 11004,
+      "ingredients": [5000, 5000, 11006],
+      "cookTime": 5,
+      "cookerType": "CuttingBoard"
+    },
+    {
+      "id": 11005,
+      "foodId": 11005,
+      "ingredients": [2, 3, 16, 11000],
+      "cookTime": 5,
+      "cookerType": "CuttingBoard"
+    },
+    {
+      "id": 11006,
+      "foodId": 11006,
+      "ingredients": [14, 36, 35],
+      "cookTime": 3,
+      "cookerType": "CuttingBoard"
+    },
+    {
+      "id": 11007,
+      "foodId": 11007,
+      "ingredients": [11007, 15, 17],
+      "cookTime": 6,
+      "cookerType": "Pot"
+    },
+    {
+      "id": 11008,
+      "foodId": 11008,
+      "ingredients": [16, 0, 24, 29],
+      "cookTime": 5,
+      "cookerType": "Fryer"
+    },
+    {
+      "id": 11009,
+      "foodId": 11009,
+      "ingredients": [33, 30],
+      "cookTime": 4,
+      "cookerType": "CuttingBoard"
+    },
+    {
+      "id": 11010,
+      "foodId": 11010,
+      "ingredients": [24, 22, 27],
+      "cookTime": 7,
+      "cookerType": "Steamer"
+    },
+    {
+      "id": 11011,
+      "foodId": 11011,
+      "ingredients": [21, 26, 33, 27],
+      "cookTime": 4,
+      "cookerType": "CuttingBoard"
+    }
+  ],
+  "missionNodes": [
+    {
+      "title": "请大妖精品尝一下「山泉双色果盘」吧！",
+      "description": "从大妖精那儿得到了新料理的灵感，做出来以后请她尝一尝吧！",
+      "label": "_Kizuna_Daiyousei_LV1_Upgrade_001_Mission",
+      "debugLabel": "新任务",
+      "missionType": "Kitsuna",
+      "sender": "_Daiyousei",
+      "reciever": "_Daiyousei",
+      "rewards": [],
+      "finishConditions": [
+        {
+          "conditionType": "ServeInWork",
+          "sellableType": "Food",
+          "productType": "Beverage",
+          "productId": 3,
+          "productAmount": 9,
+          "label": "_Daiyousei",
+          "amount": 11000
+        }
+      ],
+      "postMissionsAfterPerformance": [],
+      "postEvents": ["_Kizuna_Daiyousei_LV2_Upgrade_001_Event"],
+      "missionFinishEvent": {
+        "eventType": "Dialog",
+        "dialogPackageName": "_Kizuna_Daiyousei_LV1_002"
+      },
+      "postRewards": [
+        {
+          "rewardType": "UpgradeKizunaLevel",
+          "rewardId": "_Daiyousei"
+        }
+      ]
+    },
+    {
+      "title": "请大妖精品尝一下「鱼饼」吧！",
+      "description": "从大妖精那儿得到了新料理的灵感，做出来以后请她尝一尝吧！",
+      "label": "_Kizuna_Daiyousei_LV2_Upgrade_001_Mission",
+      "debugLabel": "新任务",
+      "missionType": "Kitsuna",
+      "sender": "_Daiyousei",
+      "reciever": "_Daiyousei",
+      "rewards": [],
+      "finishConditions": [
+        {
+          "conditionType": "ServeInWork",
+          "sellableType": "Food",
+          "productId": 2,
+          "productAmount": 2,
+          "productType": "Food",
+          "label": "_Daiyousei",
+          "amount": 11001
+        }
+      ],
+      "postMissionsAfterPerformance": [],
+      "postEvents": ["_Kizuna_Daiyousei_LV3_Upgrade_001_Event"],
+      "postRewards": [
+        {
+          "rewardType": "UpgradeKizunaLevel",
+          "rewardId": "_Daiyousei"
+        }
+      ],
+      "missionFinishEvent": {
+        "eventType": "Dialog",
+        "dialogPackageName": "_Kizuna_Daiyousei_LV2_002"
+      }
+    },
+    {
+      "title": "采集月光",
+      "description": "月光会是怎样神奇的味道呢……据有的妖精说，月光草这种食材在当今的地面已经不再罕见，如果我们可以找到一些用它们制作的料理的话……",
+      "label": "_Kizuna_Daiyousei_LV3_Upgrade_001_Mission",
+      "debugLabel": "新任务",
+      "missionType": "Kitsuna",
+      "sender": "_Daiyousei",
+      "reciever": "_Daiyousei",
+      "rewards": [],
+      "finishConditions": [
+        {
+          "conditionType": "SubmitItem",
+          "sellableType": "Food",
+          "productType": "Ingredient",
+          "productId": 33,
+          "productAmount": 5
+        }
+      ],
+      "postMissionsAfterPerformance": [
+        "_Kizuna_Daiyousei_LV3_Upgrade_002_Mission"
+      ],
+      "postEvents": [],
+      "postRewards": [
+        {
+          "rewardType": "GiveItem",
+          "objectType": "Recipe",
+          "rewardIntArray": [11002]
+        }
+      ],
+      "missionFinishEvent": {
+        "eventType": "Dialog",
+        "dialogPackageName": "_Kizuna_Daiyousei_LV3_002"
+      }
+    },
+    {
+      "title": "请大妖精品尝一下「白果灵盅」吧！",
+      "description": "从大妖精那儿得到了新料理的灵感，做出来以后请她尝一尝吧！",
+      "label": "_Kizuna_Daiyousei_LV3_Upgrade_002_Mission",
+      "debugLabel": "新任务",
+      "missionType": "Kitsuna",
+      "sender": "_Daiyousei",
+      "reciever": "_Daiyousei",
+      "rewards": [],
+      "finishConditions": [
+        {
+          "conditionType": "ServeInWork",
+          "sellableType": "Food",
+          "label": "_Daiyousei",
+          "amount": 11002
+        }
+      ],
+      "postEvents": ["_Kizuna_Daiyousei_LV4_Upgrade_001_Event"],
+      "postMissionsAfterPerformance": [],
+      "missionFinishEvent": {
+        "eventType": "Dialog",
+        "dialogPackageName": "_Kizuna_Daiyousei_LV3_003"
+      },
+      "postRewards": [
+        {
+          "rewardType": "UpgradeKizunaLevel",
+          "rewardId": "_Daiyousei"
+        }
+      ]
+    }
+  ],
+  "eventNodes": [
+    {
+      "label": "_Kizuna_Daiyousei_LV1_Upgrade_001_Event",
+      "debugLabel": "大妖精羁绊 LV1 前置",
+      "scheduledEvent": {
+        "trigger": {
+          "triggerType": "KizunaCheckPoint",
+          "triggerId": "_Daiyousei"
+        },
+        "eventData": {
+          "eventType": "Dialog",
+          "dialogPackageName": "_Kizuna_Daiyousei_LV1_001"
+        }
+      },
+      "rewards": [],
+      "postRewards": [
+        {
+          "rewardType": "GiveItem",
+          "objectType": "Recipe",
+          "rewardIntArray": [11000]
+        }
+      ],
+      "postMissionsAfterPerformance": [
+        "_Kizuna_Daiyousei_LV1_Upgrade_001_Mission"
+      ],
+      "postEvents": []
+    },
+    {
+      "label": "_Kizuna_Daiyousei_LV2_Upgrade_001_Event",
+      "debugLabel": "大妖精羁绊 LV2 前置",
+      "scheduledEvent": {
+        "trigger": {
+          "triggerType": "KizunaCheckPoint",
+          "triggerId": "_Daiyousei"
+        },
+        "eventData": {
+          "eventType": "Dialog",
+          "dialogPackageName": "_Kizuna_Daiyousei_LV2_001"
+        }
+      },
+      "rewards": [],
+      "postRewards": [
+        {
+          "rewardType": "GiveItem",
+          "objectType": "Recipe",
+          "rewardIntArray": [11001]
+        }
+      ],
+      "postMissionsAfterPerformance": [
+        "_Kizuna_Daiyousei_LV2_Upgrade_001_Mission"
+      ],
+      "postEvents": []
+    },
+    {
+      "label": "_Kizuna_Daiyousei_LV3_Upgrade_001_Event",
+      "debugLabel": "大妖精羁绊 LV3 前置",
+      "scheduledEvent": {
+        "trigger": {
+          "triggerType": "KizunaCheckPoint",
+          "triggerId": "_Daiyousei"
+        },
+        "eventData": {
+          "eventType": "Dialog",
+          "dialogPackageName": "_Kizuna_Daiyousei_LV3_001"
+        }
+      },
+      "rewards": [],
+      "postRewards": [],
+      "postMissionsAfterPerformance": [
+        "_Kizuna_Daiyousei_LV3_Upgrade_001_Mission"
+      ],
+      "postEvents": []
+    },
+    {
+      "label": "_Kizuna_Daiyousei_LV4_Upgrade_001_Event",
+      "debugLabel": "大妖精羁绊 LV4 前置",
+      "scheduledEvent": {
+        "trigger": {
+          "triggerType": "KizunaCheckPoint",
+          "triggerId": "_Daiyousei"
+        },
+        "eventData": {
+          "eventType": "Dialog",
+          "dialogPackageName": "_Kizuna_Daiyousei_LV4_001"
+        }
+      },
+      "rewards": [],
+      "postRewards": [
+        {
+          "rewardType": "UpgradeKizunaLevel",
+          "rewardId": "_Daiyousei"
+        }
+      ],
+      "postMissionsAfterPerformance": [],
+      "postEvents": []
+    }
+  ]
+}
