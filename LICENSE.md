@@ -1,10 +1,9 @@
 # MetaMystia 资源版权与使用许可说明
 
 本文件适用于 **MetaMystia** 项目
- 项目地址：**[MetaMikuAI/MetaMystia](https://github.com/MetaMikuAI/MetaMystia)**
+项目地址：**[MetaMikuAI/MetaMystia](https://github.com/MetaMikuAI/MetaMystia)**
 
 本资源包包含来自不同来源的内容，不同部分适用不同版权规则。请在使用或再分发前仔细阅读。
-
 
 ## 一、原作版权声明
 
@@ -15,8 +14,7 @@
 - 《东方秋神牧场》二色幽紫蝶
 
 与上述作品相关的角色、名称、世界观设定等原始版权归原作者或原版权方所有。
- **MetaMystia 项目不对原作内容主张版权。**
-
+**MetaMystia 项目不对原作内容主张版权。**
 
 ## 二、不属于本项目授权范围的游戏原始资源
 
@@ -52,17 +50,15 @@ MetaMystia 项目不对这些资源授予任何再分发或二次创作授权。
 除第二节列出的内容，其余由 **MetaMystia 项目组原创** 的资源均采用：
 
 > **Creative Commons Attribution–NonCommercial–ShareAlike 4.0 International
->  (CC BY-NC-SA 4.0)**
+> (CC BY-NC-SA 4.0)**
 
 你可以在遵守该协议的前提下进行非商业使用、修改与再创作，并需署名且以相同许可共享。
-
 
 ## 四、资源列表变更说明
 
 MetaMystia 项目会随着开发进展持续更新资源内容。上述“非原创资源列表”可能在未来版本中发生变动（增加或移除）。
 
 请始终以 **本文件在对应版本发布时的内容** 作为版权归属判断依据。若对某个文件的版权状态存在疑问，应视为**不属于默认 CC 授权范围**，除非有明确的原创或许可标注。
-
 
 ## 五、免责声明
 
