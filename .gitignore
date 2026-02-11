@@ -1,0 +1,13 @@
+*
+
+!.gitignore
+
+!README.md
+!LICENSE.md
+!ResourceEx.json
+
+!assets/
+!assets/**
+
+!.github/
+!.github/**
