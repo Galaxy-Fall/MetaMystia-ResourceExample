@@ -17,7 +17,7 @@
       "Galaxy-Fall"
     ],
     "description": "MetaMystia 示例资源包 ResourceExample",
-    "version": "0.6.1",
+    "version": "0.6.2",
     "license": "# MetaMystia 资源版权与使用许可说明\n\n本文件适用于 **MetaMystia** 项目\n项目地址：**[MetaMikuAI/MetaMystia](https://github.com/MetaMikuAI/MetaMystia)**\n\n本资源包包含来自不同来源的内容，不同部分适用不同版权规则。请在使用或再分发前仔细阅读。\n\n## 一、原作版权声明\n\n本 Mod 为基于以下作品的**非官方同人二次创作**：\n\n- 《东方Project》上海爱丽丝幻乐团@ZUN\n- 《东方夜雀食堂》二色幽紫蝶\n- 《东方秋神牧场》二色幽紫蝶\n\n与上述作品相关的角色、名称、世界观设定等原始版权归原作者或原版权方所有。\n**MetaMystia 项目不对原作内容主张版权。**\n\n## 二、不属于本项目授权范围的游戏原始资源\n\n以下路径中的资源文件 **并非 MetaMystia 项目原创内容**，其美术资源版权归原游戏版权方所有。\n\n来自 **《东方夜雀食堂》二色幽紫蝶** 的资源：\n\n```\nassets/Character/9000/*\nassets/Character/9001/*\nassets/Character/9002/*\nassets/Character/9003/*\nassets/Character/9004/*\n```\n\n来自 **《东方秋神牧场》二色幽紫蝶** 的资源：\n\n```\nassets/Character/10000/Portrait/0.png\nassets/Character/10001/Portrait/0.png\nassets/Character/10002/Portrait/0.png\n```\n\n这些文件仅在原作者相关作品授权范围内使用，\n\n**不属于 MetaMystia 项目的原创资源，也不适用于下文的 CC 许可。**\n\nMetaMystia 项目不对这些资源授予任何再分发或二次创作授权。\n\n\n## 三、MetaMystia 项目原创资源许可\n\n除第二节列出的内容，其余由 **MetaMystia 项目组原创** 的资源均采用：\n\n> **Creative Commons Attribution–NonCommercial–ShareAlike 4.0 International\n> (CC BY-NC-SA 4.0)**\n\n你可以在遵守该协议的前提下进行非商业使用、修改与再创作，并需署名且以相同许可共享。\n\n## 四、资源列表变更说明\n\nMetaMystia 项目会随着开发进展持续更新资源内容。上述“非原创资源列表”可能在未来版本中发生变动（增加或移除）。\n\n请始终以 **本文件在对应版本发布时的内容** 作为版权归属判断依据。若对某个文件的版权状态存在疑问，应视为**不属于默认 CC 授权范围**，除非有明确的原创或许可标注。\n\n## 五、免责声明\n\n本项目为非官方同人创作，与原作版权方无直接关联。\n\n如原版权方提出要求，项目可能对相关内容进行修改或移除。"
   },
   "characters": [
@@ -2295,9 +2295,9 @@
       "name": "雪",
       "label": "_Yuki",
       "descriptions": [
-        "雪 lv1",
-        "雪 lv2",
-        "雪 lv3"
+        "在人类村子里摆摊贩卖食材的魔界人。名字虽然叫雪，但是修行的似乎却是火系魔法。平时经过人类村子的时候总能看见她不知疲倦的贩卖着囤积的各种食材，然后兑换成金币随身携带。",
+        "和雪相处下来，会发现她是一个乐观开朗、非常重视友谊的孩子，不过在天真无邪的同时也有一点冒失，有点像是和我一样的鸟脑袋呢！除此之外，原来她和舞是好朋友呀，怪不得总能看见她俩在一起摆摊呢！不过雪一个人摆摊的时候经常会算错价格，或许应该给她推荐一下人里最好的私塾寺子屋呢！",
+        "雪本人似乎没有察觉到，她身边的所有人都在默默关心帮助她。虽然有点担心雪的天真，但我相信只要有舞在她身后默默关心并保护着她，她肯定不会遇到危险的！身处在如此温暖的大家庭的照料之下，雪也在健康快乐地成长呢！"
       ],
       "type": "Special",
       "portraits": [
@@ -2348,9 +2348,9 @@
         }
       ],
       "spawnMarker": {
-        "mapLabel": "BeastForest",
-        "x": 0,
-        "y": 0,
+        "mapLabel": "HumanVillage",
+        "x": -23.37,
+        "y": 4.21,
         "rotation": "Down"
       },
       "faceInNoteBook": 0,
@@ -2396,6 +2396,139 @@
           "assets/Character/11000/Sprite/Eyes_5, 2.png",
           "assets/Character/11000/Sprite/Eyes_5, 3.png"
         ]
+      },
+      "guest": {
+        "fundRangeLower": 100,
+        "fundRangeUpper": 900,
+        "evaluation": [
+          "唔姆…...味道好奇怪的样子…...明明是舞舞推荐的餐厅来着。",
+          "似乎和神绮大人不用魔法的时候制作的炒菜味道很像呢！晚饭后回去还是加餐吃点薯片吧。",
+          "这顿饭消耗掉了许多我囤积的食材呢！回去一定会被神绮大人夸奖的吧！",
+          "真好吃，我一定要回去推荐舞舞也来尝一尝！一定不会忘记这件事的哦！",
+          "实在是太好吃啦！以后我每一顿饭都要来这里吃！啊咧，食材还没卖完......?",
+          "不要！我已经没有金币给你了！",
+          "我的金币不断地被抢走，这样的日子还能过下去吗！",
+          "呜呜，老板娘，轮到我点单了吗？不要无视我啦！诶，这是要重新排队的意思吗？",
+          "为什么其他顾客都要重新排队？好哦，那我也去重新排队吧！"
+        ],
+        "conversation": [
+          "神绮大人说了，没有卖完所有食材就不能和舞舞一起出去玩...",
+          "舞舞她虽然话比较少，但每当我遇到困难的时候都会来帮我呢。",
+          "虽然我学习的是火系魔法，但名字却叫雪呢。嘿嘿，是神绮大人给我取的名字哦！",
+          "肚子饿得咕咕叫了，好想吃神绮大人做的苹果派！",
+          "诶，经常吃霸王餐的小偷？误入幻想乡的外界人类？认错人了哦，我是魔界的魔法使雪哦！",
+          "摆摊的时候卖了50块钱的食材，不小心给了100块钱的找零，结果被舞舞骂了一顿..."
+        ],
+        "foodRequests": [
+          {
+            "tagId": -1,
+            "request": "囤积的食材还有很多，不如全部拿来做成一道丰盛的大餐吧！",
+            "enable": true
+          },
+          {
+            "tagId": 0,
+            "request": "我还在长身体哦！神绮大人说过，多吃牛肉才能有力气！",
+            "enable": true
+          },
+          {
+            "tagId": 9,
+            "request": "只有吃得饱饱的，才有力气继续收集食材！",
+            "enable": true
+          },
+          {
+            "tagId": 16,
+            "request": "我还在长身体哦！神绮大人说过，多喝鲜牛奶才能变聪明！",
+            "enable": true
+          },
+          {
+            "tagId": 17,
+            "request": "芝士蛋糕、马卡龙、提拉米苏......有好多好多我想吃的甜点！",
+            "enable": true
+          },
+          {
+            "tagId": 22,
+            "request": "神绮大人说过，吃饭要趁热全部吃完！",
+            "enable": true
+          },
+          {
+            "tagId": 31,
+            "request": "蜜瓜芭菲，草莓慕斯，苹果派......这些我爱吃的糕点之间有什么共同点呢？",
+            "enable": true
+          },
+          {
+            "tagId": 34,
+            "request": "作为见习火系魔法使，忍耐辛辣的食物也是修行的一部分！",
+            "enable": true
+          }
+        ],
+        "bevRequests": [],
+        "hateFoodTag": [
+          2,
+          7,
+          21,
+          28
+        ],
+        "likeFoodTag": [
+          {
+            "tagId": -1,
+            "weight": 1
+          },
+          {
+            "tagId": 0,
+            "weight": 1
+          },
+          {
+            "tagId": 9,
+            "weight": 1
+          },
+          {
+            "tagId": 16,
+            "weight": 1
+          },
+          {
+            "tagId": 17,
+            "weight": 1
+          },
+          {
+            "tagId": 22,
+            "weight": 1
+          },
+          {
+            "tagId": 31,
+            "weight": 1
+          },
+          {
+            "tagId": 34,
+            "weight": 1
+          }
+        ],
+        "likeBevTag": [
+          {
+            "tagId": 4,
+            "weight": 1
+          },
+          {
+            "tagId": 11,
+            "weight": 1
+          },
+          {
+            "tagId": 12,
+            "weight": 1
+          },
+          {
+            "tagId": 13,
+            "weight": 1
+          },
+          {
+            "tagId": 16,
+            "weight": 1
+          },
+          {
+            "tagId": 18,
+            "weight": 1
+          }
+        ],
+        "spawn": []
       }
     },
     {
@@ -2403,9 +2536,9 @@
       "name": "舞",
       "label": "_Mai",
       "descriptions": [
-        "舞 lv1",
-        "舞 lv3",
-        "舞 lv5"
+        "在人类村子里摆摊贩卖食材的魔界人，修行的似乎是冰系魔法。背后有着大大的白色翅膀，难道其实和我一样是鸟类妖怪吗？平时经过人类村子的时候总能看见她在贩卖自制的各种饮料，虽然满口的不情愿但是却忙前忙后乐此不疲的样子呢，真是奇怪！",
+        "舞平时沉默寡言，但是一旦聊到雪相关的话题就会情不自禁地说一大堆呢。虽然她总是抱怨雪的各种缺点，嫌弃雪给自己拖后腿，并且还经常责备雪，但是两个人还是每天一起摆摊一起玩耍，似乎关系非常要好的样子！作为鸟脑袋，我完全理解不了她的想法呢......真是奇怪！",
+        "原来舞是刀子嘴豆腐心，虽然满口的不在乎雪，但是实际上非常关心她呢！虽然我不是很理解为什么舞她不愿意直接把内心的想法全部表达出来，或许那样的话就不会让雪有那么多的误会了......不过看着她俩开心地一起玩耍一起摆摊，我应该不需要担心那么多了吧！"
       ],
       "type": "Special",
       "portraits": [
@@ -2456,9 +2589,9 @@
         }
       ],
       "spawnMarker": {
-        "mapLabel": "BeastForest",
-        "x": 0,
-        "y": 0,
+        "mapLabel": "HumanVillage",
+        "x": -22.19,
+        "y": 4.21,
         "rotation": "Down"
       },
       "faceInNoteBook": 0,
@@ -2503,6 +2636,160 @@
           "assets/Character/11001/Sprite/Eyes_5, 1.png",
           "assets/Character/11001/Sprite/Eyes_5, 2.png",
           "assets/Character/11001/Sprite/Eyes_5, 3.png"
+        ]
+      },
+      "guest": {
+        "fundRangeLower": 500,
+        "fundRangeUpper": 600,
+        "evaluation": [
+          "......真是有意思的味道，回去之后我会推荐给雪的。",
+          "这味道简直可以和神绮大人的特制蔬菜青汁有得一比了......真是不好的回忆。",
+          "……♡",
+          "......咕嗯，确实十分美味…...不得不承认雪那笨蛋在美食的品味这方面意外的有天赋呢。",
+          "呜哇，实在是......太美味了♡！咕咕！",
+          "开什么玩笑，把魔界所有人的零花钱加起来也吃不起这样一顿饭啊！",
+          "失算了，居然已经超额了，还是记在雪的账上吧！",
+          "吃到一半莫名其妙就被赶走了......料理再好吃以后也不来了，哼！",
+          "原来还能用这种方式来激怒他人，我似乎想到了新的捉弄雪的点子呢~。"
+        ],
+        "conversation": [
+          "每次呆在雪那家伙旁边，都感觉热得快要融化了......但是为了看住她，这也是没办法的事情。",
+          "神绮大人的作品里只有我有羽毛翅膀呢。比起天使更像鸽子......?不要开这种玩笑啦（怒）",
+          "雪那家伙每次做了傻事都要拉着我炫耀，比起开心更多是感到碍事呢......真的哦！",
+          "有一次雪卖了50块钱的食材却找了100块钱，真是个无可救药的笨蛋......因此我才勉为其难陪她一起卖东西哦。",
+          "我修行的可是优雅的冰系魔法哦？比火系魔法要强很多呢。",
+          "后户之国的童子？绿发的电波少女？怎么可能是我嘛，我可是魔界的魔法使舞哦。"
+        ],
+        "foodRequests": [
+          {
+            "tagId": 2,
+            "request": "我喜欢吃蔬菜，就像鸽子都喜欢吃玉米一样......只是举个例子而已！我又不是鸽子！",
+            "enable": true
+          },
+          {
+            "tagId": 7,
+            "request": "多吃重油辛辣的烧烤料理会变成笨蛋，因此我一般都吃清淡的料理。",
+            "enable": true
+          },
+          {
+            "tagId": 13,
+            "request": "神绮大人的料理水平虽然让人不敢恭维，但制作的西式糕点都非常美味呢。",
+            "enable": true
+          },
+          {
+            "tagId": 21,
+            "request": "作为修行中的冰系魔法使，靠近我就会感受到刺骨的寒冷哦。",
+            "enable": true
+          },
+          {
+            "tagId": 28,
+            "request": "吃饭只需要三分饱就足够了......才不是害怕长胖什么的。",
+            "enable": true
+          },
+          {
+            "tagId": 32,
+            "request": "自从不小心品鉴了雪推荐的油炸薯条之后，我就产生心理阴影了......再也不敢尝试浓汤以外的料理了。雪那家伙一点都不懂我呢。",
+            "enable": true
+          }
+        ],
+        "bevRequests": [],
+        "hateFoodTag": [
+          -1,
+          0,
+          6,
+          9,
+          22,
+          34
+        ],
+        "likeFoodTag": [
+          {
+            "tagId": 2,
+            "weight": 1
+          },
+          {
+            "tagId": 7,
+            "weight": 1
+          },
+          {
+            "tagId": 13,
+            "weight": 1
+          },
+          {
+            "tagId": 21,
+            "weight": 1
+          },
+          {
+            "tagId": 28,
+            "weight": 1
+          },
+          {
+            "tagId": 32,
+            "weight": 1
+          }
+        ],
+        "likeBevTag": [
+          {
+            "tagId": -1,
+            "weight": 1
+          },
+          {
+            "tagId": 3,
+            "weight": 1
+          },
+          {
+            "tagId": 11,
+            "weight": 1
+          },
+          {
+            "tagId": 12,
+            "weight": 1
+          },
+          {
+            "tagId": 16,
+            "weight": 1
+          },
+          {
+            "tagId": 17,
+            "weight": 1
+          }
+        ],
+        "spawn": [
+          {
+            "izakayaId": 3,
+            "relativeProb": 0,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 4,
+            "relativeProb": 0,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 5,
+            "relativeProb": 0,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 5003,
+            "relativeProb": 0,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 5004,
+            "relativeProb": 0,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          },
+          {
+            "izakayaId": 5005,
+            "relativeProb": 0,
+            "onlySpawnAfterUnlocking": false,
+            "onlySpawnWhenPlaceBeRecorded": false
+          }
         ]
       }
     }
@@ -4001,6 +4288,54 @@
           "text": "文案还没写 >_<"
         }
       ]
+    },
+    {
+      "name": "_Merchant_Yuki_Welcome_001",
+      "dialogList": [
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 7,
+          "position": "Left",
+          "text": "囤太多不同的素材结果被神绮大人骂了，只能摆摊全部卖掉了。不过多亏了有舞舞，她害怕我算错价格，主动提出帮我看摊子呢！"
+        }
+      ]
+    },
+    {
+      "name": "_Merchant_Yuki_Null_001",
+      "dialogList": [
+        {
+          "characterId": 11000,
+          "characterType": "Special",
+          "pid": 8,
+          "position": "Left",
+          "text": "哇，食材居然全部都卖出去了，这样就不会被神绮大人责备啦！不过明天还得继续卖食材……至少今天晚上可以和舞舞一起出去玩了，玩到饿了就来老板娘你这里吃晚饭也说不定哦！"
+        }
+      ]
+    },
+    {
+      "name": "_Merchant_Mai_Welcome_001",
+      "dialogList": [
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 4,
+          "position": "Left",
+          "text": "真麻烦，要不是神绮大人让我监督雪这家伙，顺便卖点魔界特产饮料，我才不想来呢。"
+        }
+      ]
+    },
+    {
+      "name": "_Merchant_Mai_Null_001",
+      "dialogList": [
+        {
+          "characterId": 11001,
+          "characterType": "Special",
+          "pid": 1,
+          "position": "Left",
+          "text": "我制作的饮料果然卖得很好呢，一下子就全部售罄了。这下有时间去雪那边帮一下……不，没什么哦。"
+        }
+      ]
     }
   ],
   "ingredients": [
@@ -4013,7 +4348,7 @@
       "isFish": false,
       "isMeat": false,
       "isVeg": false,
-      "baseValue": 64,
+      "baseValue": 96,
       "tags": [
         -3,
         4,
@@ -4062,7 +4397,7 @@
       "isFish": false,
       "isMeat": false,
       "isVeg": true,
-      "baseValue": 1,
+      "baseValue": 4,
       "tags": [
         2,
         34
@@ -4078,7 +4413,7 @@
       "isFish": false,
       "isMeat": false,
       "isVeg": true,
-      "baseValue": 1,
+      "baseValue": 4,
       "tags": [
         2,
         34
@@ -4094,7 +4429,7 @@
       "isFish": false,
       "isMeat": false,
       "isVeg": true,
-      "baseValue": 1,
+      "baseValue": 4,
       "tags": [
         2,
         3,
@@ -4726,7 +5061,146 @@
       ]
     }
   ],
-  "merchants": [],
+  "merchants": [
+    {
+      "key": "_Yuki",
+      "welcomeDialogPackageNames": [
+        "_Merchant_Yuki_Welcome_001"
+      ],
+      "nullDialogPackageNames": [
+        "_Merchant_Yuki_Null_001"
+      ],
+      "priceMultiplierMin": 0.5,
+      "priceMultiplierMax": 0.7,
+      "leastSellNum": 1,
+      "merchandise": [
+        {
+          "item": {
+            "productType": "Ingredient",
+            "productId": 11000,
+            "productAmount": 1,
+            "productLabel": ""
+          },
+          "itemAmountMin": 1,
+          "itemAmountMax": 4,
+          "sellProbability": 0.6
+        },
+        {
+          "item": {
+            "productType": "Ingredient",
+            "productId": 11001,
+            "productAmount": 1,
+            "productLabel": ""
+          },
+          "itemAmountMin": 1,
+          "itemAmountMax": 5,
+          "sellProbability": 0.9
+        },
+        {
+          "item": {
+            "productType": "Ingredient",
+            "productId": 11002,
+            "productAmount": 1,
+            "productLabel": ""
+          },
+          "itemAmountMin": 1,
+          "itemAmountMax": 4,
+          "sellProbability": 0.8
+        },
+        {
+          "item": {
+            "productType": "Ingredient",
+            "productId": 11003,
+            "productAmount": 1,
+            "productLabel": ""
+          },
+          "itemAmountMin": 1,
+          "itemAmountMax": 10,
+          "sellProbability": 1
+        },
+        {
+          "item": {
+            "productType": "Ingredient",
+            "productId": 11004,
+            "productAmount": 1,
+            "productLabel": ""
+          },
+          "itemAmountMin": 1,
+          "itemAmountMax": 10,
+          "sellProbability": 1
+        }
+      ]
+    },
+    {
+      "key": "_Mai",
+      "welcomeDialogPackageNames": [
+        "_Merchant_Mai_Welcome_001"
+      ],
+      "nullDialogPackageNames": [
+        "_Merchant_Mai_Null_001"
+      ],
+      "priceMultiplierMin": 0.5,
+      "priceMultiplierMax": 0.7,
+      "leastSellNum": 1,
+      "merchandise": [
+        {
+          "item": {
+            "productType": "Ingredient",
+            "productId": 11005,
+            "productAmount": 1,
+            "productLabel": ""
+          },
+          "itemAmountMin": 5,
+          "itemAmountMax": 10,
+          "sellProbability": 1
+        },
+        {
+          "item": {
+            "productType": "Ingredient",
+            "productId": 11006,
+            "productAmount": 1,
+            "productLabel": ""
+          },
+          "itemAmountMin": 4,
+          "itemAmountMax": 5,
+          "sellProbability": 0.9
+        },
+        {
+          "item": {
+            "productType": "Ingredient",
+            "productId": 11007,
+            "productAmount": 1,
+            "productLabel": ""
+          },
+          "itemAmountMin": 4,
+          "itemAmountMax": 8,
+          "sellProbability": 0.9
+        },
+        {
+          "item": {
+            "productType": "Beverage",
+            "productId": 11000,
+            "productAmount": 1,
+            "productLabel": ""
+          },
+          "itemAmountMin": 5,
+          "itemAmountMax": 9,
+          "sellProbability": 1
+        },
+        {
+          "item": {
+            "productType": "Beverage",
+            "productId": 11001,
+            "productAmount": 1,
+            "productLabel": ""
+          },
+          "itemAmountMin": 6,
+          "itemAmountMax": 8,
+          "sellProbability": 1
+        }
+      ]
+    }
+  ],
   "eventNodes": [
     {
       "label": "_Kizuna_Daiyousei_LV1_Upgrade_001_Event",
