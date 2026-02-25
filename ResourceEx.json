@@ -5437,6 +5437,708 @@
       ]
     },
     {
+      "name": "_ResourceExample_Kizuna_AkiShizuha_welcome",
+      "dialogList": [
+        {
+          "characterId": 10000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "愿意清扫红叶的人越来越少了……"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_AkiShizuha_LV1_Chat_001",
+      "dialogList": [
+        {
+          "characterId": 10000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "这不是雀食堂的老板娘吗？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "啊哇哇，是秋神大人！"
+        },
+        {
+          "characterId": 10000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "嘻嘻，我可是有司掌红叶的能力呢。"
+        },
+        {
+          "characterId": 10000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "不好好招待我的话，我就把你的翅膀染成红叶的颜色哦！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "唔，红色的翅膀吗，看起来就很强的样子！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "我一定会用最好的酒菜招待秋神大人的！"
+        },
+        {
+          "characterId": 10000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "那我可能不一定能买得起呢……"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_AkiShizuha_LV1_Chat_002",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "红叶的秋神大人，今天也在妖怪之山散心吗？"
+        },
+        {
+          "characterId": 10000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "因为妖怪之山的景色最对我胃口呀。"
+        },
+        {
+          "characterId": 10000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "倒是老板娘你，一只小夜雀天天来这里乱逛，不怕被大妖怪抓走吃掉吗？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "因为妖怪之山无论是大妖怪还是小妖怪都很多呀。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "在这里热热闹闹的，我的歌声也能被更多妖怪听见呢。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "秋神大人是不是也因为这里热闹才待在这里的呢？"
+        },
+        {
+          "characterId": 10000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "……我才不是呢，作为秋季的象征，不懂得如何忍耐寂寞可不行哦。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "（原来神明也会觉得寂寞呀？）"
+        }
+      ]
+    },
+    {
+      "name": "_ResourceExample_Kizuna_AkiShizuha_LV2_Chat_001",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "静叶小姐，今天也在清扫落叶呢！"
+        },
+        {
+          "characterId": 10000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "毕竟是我自己一手染红的树叶，落下来还是得我自己扫呀。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "这如此广袤的妖怪之山，树叶全都是静叶小姐染的？"
+        },
+        {
+          "characterId": 10000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "我的能力可是司掌红叶，这点树对我来说都是小意思。"
+        },
+        {
+          "characterId": 10000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "只要我愿意，整个幻想乡的树叶，我都可以染成红色。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "哇……"
+        }
+      ]
+    },
+        {
+      "name": "_ResourceExample_Kizuna_AkiShizuha_LV2_Chat_002",
+      "dialogList": [
+        {
+          "characterId": 10000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "唉，是不是在你看来我的能力也没什么用呢。"
+        },
+        {
+          "characterId": 10000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "掌管红叶什么的听着就不强吧？而且最近信仰量也是一年不如一年。"
+        },
+        {
+          "characterId": 10000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "不像我妹妹，她无论是人气还是能力，都比我强的多呢。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "不是的，静叶小姐。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "你创造的如此美丽的风景，让我情不自禁地想要唱歌哦。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "能力这种东西，在我眼里从来没有高下之分呢。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "毕竟我只是一个小小的夜雀妖怪呀。"
+        },
+        {
+          "characterId": 10000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "你这鸟脑袋这时候倒是挺好，连烦恼也装不下呀～"
+        }
+      ]
+    },
+        {
+      "name": "_ResourceExample_Kizuna_AkiShizuha_LV3_Chat_001",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "经常有人把你和妹妹弄混吗，静叶小姐？"
+        },
+        {
+          "characterId": 10000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "有啊，不如说要是真能搞混就好了。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "啊？为什么呢？"
+        },
+        {
+          "characterId": 10000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "我也想有穰子那样大量的信仰啊。（小声）而且妹妹的身材也……"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "诶？生菜？"
+        },
+        {
+          "characterId": 10000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "（脸红）没……没什么啦。哎，搞混了也没用呀，在幻想乡里弄错对象可是输送不了信仰的。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "我、我会在兽道努力清扫红叶的！"
+        }
+      ]
+    },
+        {
+      "name": "_ResourceExample_Kizuna_AkiShizuha_LV3_Chat_002",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "从某种意义上来说，静叶小姐有点像宣告秋天的妖精呢~"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "光从你们所做的事情上来说啦……"
+        },
+        {
+          "characterId": 10000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "这么说，确实有一只宣告春天的妖精呢~"
+        },
+        {
+          "characterId": 10000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "一到季节，她不知道从哪就冒出来了。"
+        },
+        {
+          "characterId": 10000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "不过这也让山里热热闹闹的，许多冬眠的妖怪都因为她醒来了。"
+        },
+        {
+          "characterId": 10000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "反而到秋天就很少见到她了，有机会的话还真想让她看看我是如何宣告季节的。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "从这种大手笔的方式来看，静叶小姐还真是有着红叶之神的作风啊。"
+        }
+      ]
+    },
+        {
+      "name": "_ResourceExample_Kizuna_AkiShizuha_LV4_Chat_001",
+      "dialogList": [
+        {
+          "characterId": 10000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "秋天，可谓是艺术之秋啊！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "诶？还有这种说法吗？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "我演奏的音乐也可以算作艺术……？"
+        },
+        {
+          "characterId": 10000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "其实啊，秋天还有更适合老板你的一面哦！"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "是什么呀，静叶小姐？"
+        },
+        {
+          "characterId": 10000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "当然是读书之秋啊！"
+        },
+        {
+          "characterId": 10000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "但是你这鸟脑袋也读不进去什么书吧～"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "静叶小姐不要欺负我啦……"
+        },
+        {
+          "characterId": 10000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "嘻嘻，那果然还是食欲之秋适合老板娘吧！"
+        },
+        {
+          "characterId": 10000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "毕竟顾客们会光临你的食堂呢～"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "感谢静叶小姐带来如此美妙的食欲之秋！"
+        }
+      ]
+    },
+        {
+      "name": "_ResourceExample_Kizuna_AkiShizuha_LV4_Chat_002",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "妖怪之山的落叶真是绝景呢。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "作为红叶的神明，静叶小姐也会观赏飘落的红叶吗？"
+        },
+        {
+          "characterId": 10000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "对我而言，与其说是观赏落叶，不如说是体会落叶中包含的意境。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "意……境？"
+        },
+        {
+          "characterId": 10000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "没错。不过你这鸟脑袋估计也听不懂意境。"
+        },
+        {
+          "characterId": 10000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "我就给你说说落叶里包含的哲理吧。"
+        },
+        {
+          "characterId": 10000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "万事万物都要遵循生死规律，落叶也是一种树木对死亡的发泄。"
+        },
+        {
+          "characterId": 10000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "树叶飘落的轨迹，就好像林木对短暂的秋季唱出的咏叹调一样。"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "呜呜呜，我已经被说晕了啦。"
+        },
+        {
+          "characterId": 10000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "好啦好啦，那不知道有没有机会听到老板娘为秋天而唱的曲子呢？"
+        },
+        {
+          "characterId": 34,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right",
+          "text": "肯定有的！我会为了静叶小姐努力写歌的！"
+        },
+        {
+          "characterId": 10000,
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left",
+          "text": "约好了哦！"
+        }
+      ]
+    },
+        {
+      "name": "_ResourceExample_Kizuna_AkiShizuha_Invite_Succeed",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "text": "静叶小姐，你喜欢吃什么呀？",
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right"
+        },
+        {
+          "characterId": 10000,
+          "text": "嗯？我姑且作为秋神，不需要吃东西也行呢。",
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left"
+        },
+        {
+          "characterId": 34,
+          "text": "但是偶尔体验一下美妙的料理也不错哦~",
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right"
+        },
+        {
+          "characterId": 34,
+          "text": "晚上要不要来我的食堂坐坐？",
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right"
+        },
+        {
+          "characterId": 10000,
+          "text": "好呀，不知道我能品尝到何种美味呢？",
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left"
+        }
+      ]
+    },
+        {
+      "name": "_ResourceExample_Kizuna_AkiShizuha_Invite_Failed",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "text": "静叶小姐，你喜欢吃什么呀？",
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right"
+        },
+        {
+          "characterId": 10000,
+          "text": "嗯？我姑且作为秋神，不需要吃东西也行呢。",
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left"
+        },
+        {
+          "characterId": 34,
+          "text": "但是偶尔体验一下美妙的料理也不错哦~",
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right"
+        },
+        {
+          "characterId": 34,
+          "text": "晚上要不要来我的食堂坐坐？",
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right"
+        },
+        {
+          "characterId": 10000,
+          "text": "今天就算了，我还是更想欣赏这些美丽的红叶呢。",
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left"
+        }
+      ]
+    },
+        {
+      "name": "_ResourceExample_Kizuna_AkiShizuha_Request_Ingredient",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "text": "妖怪之山这么大，有没有什么特产食材呢？",
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right"
+        },
+        {
+          "characterId": 10000,
+          "text": "有啊，那边的山上啊，悬崖下面啊，瀑布底下啊之类的地方……",
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left"
+        },
+        {
+          "characterId": 34,
+          "text": "可是静叶小姐，我不会飞呀……",
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right"
+        },
+        {
+          "characterId": 10000,
+          "text": "你不是夜雀妖怪吗？",
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left"
+        },
+        {
+          "characterId": 34,
+          "text": "呜呜呜，对呀，我不是夜雀妖怪吗？",
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right"
+        },
+        {
+          "characterId": 10000,
+          "text": "好啦好啦，这些妖怪之山的土特产就分你一些吧。",
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left"
+        }
+      ]
+    },
+        {
+      "name": "_ResourceExample_Kizuna_AkiShizuha_Request_Beverage",
+      "dialogList": [
+        {
+          "characterId": 34,
+          "text": "静叶小姐，您在干什么呢？",
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right"
+        },
+        {
+          "characterId": 10000,
+          "text": "我在准备酿造酒水呢。秋季可是窖藏最好的季节呀。",
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left"
+        },
+        {
+          "characterId": 34,
+          "text": "那现在封进酒窖里，来年才能喝到吗？",
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right"
+        },
+        {
+          "characterId": 10000,
+          "text": "对呀~",
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left"
+        },
+        {
+          "characterId": 34,
+          "text": "那岂不是还要等好久……",
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right"
+        },
+        {
+          "characterId": 10000,
+          "text": "嘻嘻，现在可以喝以前酿造的酒呀。",
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left"
+        },
+        {
+          "characterId": 10000,
+          "text": "老板娘要不要来点？",
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Left"
+        },
+        {
+          "characterId": 34,
+          "text": "哇！谢谢静叶小姐！",
+          "characterType": "Special",
+          "pid": 0,
+          "position": "Right"
+        }
+      ]
+    },
+    {
       "name": "_ResourceExample_Merchant_Yuki_Welcome_001",
       "dialogList": [
         {
