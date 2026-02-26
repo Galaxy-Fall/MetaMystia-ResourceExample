@@ -1618,6 +1618,21 @@
           "pid": 0,
           "path": "assets/Character/10000/Portrait/0.png",
           "label": "秋静叶 微笑"
+        },
+        {
+          "pid": 1,
+          "path": "assets/Character/10000/Portrait/1.png",
+          "label": "秋静叶 叹气"
+        },
+        {
+          "pid": 2,
+          "path": "assets/Character/10000/Portrait/2.png",
+          "label": "秋静叶 生气"
+        },
+        {
+          "pid": 3,
+          "path": "assets/Character/10000/Portrait/3.png",
+          "label": "秋静叶 震惊"
         }
       ],
       "guest": {
@@ -1821,6 +1836,36 @@
           "pid": 0,
           "path": "assets/Character/10001/Portrait/0.png",
           "label": "秋穰子 微笑"
+        },
+        {
+          "pid": 1,
+          "path": "assets/Character/10001/Portrait/1.png",
+          "label": "秋穰子 笑脸"
+        },
+        {
+          "pid": 2,
+          "path": "assets/Character/10001/Portrait/2.png",
+          "label": "秋穰子 震惊"
+        },
+        {
+          "pid": 3,
+          "path": "assets/Character/10001/Portrait/3.png",
+          "label": "秋穰子 生气"
+        },
+        {
+          "pid": 4,
+          "path": "assets/Character/10001/Portrait/4.png",
+          "label": "秋穰子 眯眼笑"
+        },
+        {
+          "pid": 5,
+          "path": "assets/Character/10001/Portrait/5.png",
+          "label": "秋穰子 尴尬笑"
+        },
+        {
+          "pid": 6,
+          "path": "assets/Character/10001/Portrait/6.png",
+          "label": "秋穰子 低沉"
         }
       ],
       "guest": {
@@ -2015,6 +2060,26 @@
           "pid": 0,
           "path": "assets/Character/10002/Portrait/0.png",
           "label": "八云蓝 微笑"
+        },
+        {
+          "pid": 1,
+          "path": "assets/Character/10002/Portrait/1.png",
+          "label": "八云蓝 张嘴笑"
+        },
+        {
+          "pid": 2,
+          "path": "assets/Character/10002/Portrait/2.png",
+          "label": "八云蓝 眯眼笑"
+        },
+        {
+          "pid": 3,
+          "path": "assets/Character/10002/Portrait/3.png",
+          "label": "八云蓝 害羞"
+        },
+        {
+          "pid": 4,
+          "path": "assets/Character/10002/Portrait/4.png",
+          "label": "八云蓝 尴尬笑"
         }
       ],
       "faceInNoteBook": 0,
