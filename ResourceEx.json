@@ -6518,7 +6518,7 @@
       ]
     },
     {
-      "name": "_ResourceExample_Kizuna_AkiShizuha_Invited_Succeed",
+      "name": "_ResourceExample_Kizuna_AkiShizuha_Invite_Succeed",
       "dialogList": [
         {
           "characterId": 34,
@@ -6558,7 +6558,7 @@
       ]
     },
     {
-      "name": "_ResourceExample_Kizuna_AkiShizuha_Invited_Failed",
+      "name": "_ResourceExample_Kizuna_AkiShizuha_Invite_Failed",
       "dialogList": [
         {
           "characterId": 34,
