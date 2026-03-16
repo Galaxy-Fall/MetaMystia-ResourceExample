@@ -11,3 +11,7 @@
 
 !.github/
 !.github/**
+
+!other/
+!other/**
+other/*.py
