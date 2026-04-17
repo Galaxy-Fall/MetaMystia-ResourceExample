@@ -56,6 +56,17 @@ assets/Character/9001/Portrait/9.png
 assets/Character/9001/Portrait/10.png
 assets/Character/9001/Portrait/11.png
 assets/Character/9001/Portrait/12.png
+assets/Character/9001/Portrait/13.png
+assets/Character/9001/Portrait/14.png
+assets/Character/9001/Portrait/15.png
+assets/Character/9001/Portrait/16.png
+assets/Character/9001/Portrait/17.png
+assets/Character/9001/Portrait/18.png
+assets/Character/9001/Portrait/19.png
+assets/Character/9001/Portrait/20.png
+assets/Character/9001/Portrait/21.png
+assets/Character/9001/Portrait/22.png
+assets/Character/9001/Portrait/23.png
 ```
 
 为基于 **《东方夜雀食堂》二色幽紫蝶** 原始资源修改的衍生创作，其版权状态较为复杂，**并非 MetaMystia 项目的独立原创资源**，亦不适用于下文的 CC 许可。
