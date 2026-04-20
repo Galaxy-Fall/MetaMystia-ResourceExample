@@ -5280,14 +5280,21 @@
           "characterType": "Special",
           "pid": 4,
           "position": "Left",
-          "text": "【此处画面上什么都没有】（黑屏效果还没实装>_<）"
+          "text": "黑屏效果",
+          "actions": [
+            { "actionType": "CG", "sprite": "assets/CG/black.png" },
+            { "actionType": "CameraShake" }
+          ]
         },
         {
           "characterId": 9001,
           "characterType": "Special",
           "pid": 0,
           "position": "Left",
-          "text": "就是这样子！这就是我目前对于这种技巧的理解了。"
+          "text": "就是这样子！这就是我目前对于这种技巧的理解了。",
+          "actions": [
+            { "actionType": "CG", "shouldSet": false }   
+          ]
         },
         {
           "characterId": 34,
@@ -5465,14 +5472,21 @@
           "characterType": "Special",
           "pid": 6,
           "position": "Left",
-          "text": "【此处画面上什么都没有】（黑屏效果还没实装>_<）"
+          "text": "黑屏效果",
+          "actions": [
+            { "actionType": "CG", "sprite": "assets/CG/black.png" },
+            { "actionType": "CameraShake" }
+          ]
         },
         {
           "characterId": 34,
           "characterType": "Special",
           "pid": 13,
           "position": "Right",
-          "text": "不过这个紫色火球感觉确实力道大了不少诶。烧在身上都变疼了。"
+          "text": "不过这个紫色火球感觉确实力道大了不少诶。烧在身上都变疼了。",
+          "actions": [
+            { "actionType": "CG", "shouldSet": false }   
+          ]
         },
         {
           "characterId": 9001,
