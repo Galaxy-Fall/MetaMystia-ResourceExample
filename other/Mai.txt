@@ -311,7 +311,7 @@
 34：魔界的大家真的不要紧吗……
 ```
 
-## _Invite_Succeed_LV2-3
+## _Invite_Succeed_LV2_LV3
 
 ```js
 34：舞小姐，舞小姐？
@@ -325,7 +325,7 @@
 34：好的，那么晚上不见不散啦！
 ```
 
-## _Invite_Succeed_LV4-5
+## _Invite_Succeed_LV4_LV5
 
 ```js
 34：舞小姐，舞小姐？
@@ -339,7 +339,7 @@
 34：好的，那么晚上不见不散啦！
 ```
 
-## _Invite_Failed_LV2-3
+## _Invite_Failed_LV2_LV3
 
 ```js
 34：舞小姐，舞小姐？
