@@ -742,24 +742,24 @@
         "lv3UpgradePrerequisiteEvent": "_ResourceExample_Kizuna_Koakuma_LV3_Upgrade_001_Event",
         "lv4UpgradePrerequisiteEvent": "_ResourceExample_Kizuna_Koakuma_LV4_Upgrade_001_Event",
         "lv1Welcome": [
-          "_ResourceExample_Kizuna_Koakuma_Welcome1",
-          "_ResourceExample_Kizuna_Koakuma_Welcome2"
+          "_ResourceExample_Kizuna_Koakuma_Welcome_001",
+          "_ResourceExample_Kizuna_Koakuma_Welcome_002"
         ],
         "lv2Welcome": [
-          "_ResourceExample_Kizuna_Koakuma_Welcome1",
-          "_ResourceExample_Kizuna_Koakuma_Welcome2"
+          "_ResourceExample_Kizuna_Koakuma_Welcome_001",
+          "_ResourceExample_Kizuna_Koakuma_Welcome_002"
         ],
         "lv3Welcome": [
-          "_ResourceExample_Kizuna_Koakuma_Welcome1",
-          "_ResourceExample_Kizuna_Koakuma_Welcome2"
+          "_ResourceExample_Kizuna_Koakuma_Welcome_001",
+          "_ResourceExample_Kizuna_Koakuma_Welcome_002"
         ],
         "lv4Welcome": [
-          "_ResourceExample_Kizuna_Koakuma_Welcome1",
-          "_ResourceExample_Kizuna_Koakuma_Welcome2"
+          "_ResourceExample_Kizuna_Koakuma_Welcome_001",
+          "_ResourceExample_Kizuna_Koakuma_Welcome_002"
         ],
         "lv5Welcome": [
-          "_ResourceExample_Kizuna_Koakuma_Welcome1",
-          "_ResourceExample_Kizuna_Koakuma_Welcome2"
+          "_ResourceExample_Kizuna_Koakuma_Welcome_001",
+          "_ResourceExample_Kizuna_Koakuma_Welcome_002"
         ],
         "lv1ChatData": [
           "_ResourceExample_Kizuna_Koakuma_LV1_Chat_001",
