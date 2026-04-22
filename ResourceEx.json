@@ -8422,7 +8422,13 @@
           "assets/Clothes/9000/Sprite/Back_3, 1.png",
           "assets/Clothes/9000/Sprite/Back_3, 2.png"
         ]
-      }
+      },
+      "izakayaSkinIndex": -1,
+      "izkayaHorizontalOffset": 0,
+      "notebookHorizontalOffset": 30,
+      "notebookVerticalOffset": 60,
+      "notebookUITitleHorizontalOffset": 0,
+      "notebookUITitleVerticalOffset": -100
     }
   ],
   "eventNodes": [
