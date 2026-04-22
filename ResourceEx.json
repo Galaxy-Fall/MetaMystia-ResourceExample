@@ -5287,20 +5287,14 @@
           "characterType": "Special",
           "pid": 0,
           "position": "Left",
-          "text": "……",
-          "actions": [
-            { "actionType": "CG", "sprite": "assets/CG/black.png" }
-          ]
+          "text": "……"
         },
         {
           "characterId": 9001,
           "characterType": "Special",
           "pid": 0,
           "position": "Left",
-          "text": "就是这样子！这就是我目前对于这种技巧的理解了。",
-          "actions": [
-            { "actionType": "CG", "shouldSet": false }   
-          ]
+          "text": "就是这样子！这就是我目前对于这种技巧的理解了。"
         },
         {
           "characterId": 34,
@@ -5480,8 +5474,13 @@
           "position": "Right",
           "text": "……",
           "actions": [
-            { "actionType": "CG", "sprite": "assets/CG/black.png" },
-            { "actionType": "CameraShake" }
+            {
+              "actionType": "CG",
+              "sprite": "assets/CG/black.png"
+            },
+            {
+              "actionType": "CameraShake"
+            }
           ]
         },
         {
@@ -5491,7 +5490,10 @@
           "position": "Right",
           "text": "不过这个紫色火球感觉确实力道大了不少欸。烧在身上都变疼了。",
           "actions": [
-            { "actionType": "CG", "shouldSet": false }   
+            {
+              "actionType": "CG",
+              "shouldSet": false
+            }
           ]
         },
         {
@@ -6499,8 +6501,8 @@
         {
           "characterId": 34,
           "characterType": "Special",
-          "pid": 2,
-          "position": "Left",
+          "pid": 17,
+          "position": "Right",
           "text": "……"
         }
       ]
@@ -6599,8 +6601,13 @@
           "position": "Right",
           "text": "……？",
           "actions": [
-            { "actionType": "CG", "sprite": "assets/CG/black.png" },
-            { "actionType": "CameraShake" }
+            {
+              "actionType": "CG",
+              "sprite": "assets/CG/black.png"
+            },
+            {
+              "actionType": "CameraShake"
+            }
           ]
         }
       ]
@@ -6779,7 +6786,7 @@
           "characterType": "Special",
           "pid": 0,
           "position": "Right",
-          "text": "是“只需要”还是“只能”呀…… "
+          "text": "是“只需要”还是“只能”呀……"
         }
       ]
     },
@@ -8015,7 +8022,8 @@
       },
       "postEvents": [
         "_ResourceExample_Kizuna_Koakuma_LV2_Upgrade_001_Event"
-      ]
+      ],
+      "postMissionsAfterPerformance": []
     },
     {
       "title": "寻找艺术灵感",
@@ -8043,7 +8051,10 @@
         {
           "conditionType": "SubmitByTags",
           "sellableType": "Food",
-          "tags": [17, 20],
+          "tags": [
+            17,
+            20
+          ],
           "amount": 2
         }
       ],
@@ -8063,7 +8074,8 @@
             11004
           ]
         }
-      ]
+      ],
+      "postEvents": []
     },
     {
       "title": "请小恶魔品尝一下「正义执行雕塑」吧！",
@@ -8094,7 +8106,8 @@
       },
       "postEvents": [
         "_ResourceExample_Kizuna_Koakuma_LV3_Upgrade_001_Event"
-      ]
+      ],
+      "postMissionsAfterPerformance": []
     },
     {
       "title": "爆炸性的火焰！",
@@ -8150,7 +8163,8 @@
             11005
           ]
         }
-      ]
+      ],
+      "postEvents": []
     },
     {
       "title": "请小恶魔品尝一下「超位·业火烧烤宴」吧！",
@@ -8181,7 +8195,8 @@
       "missionFinishEvent": {
         "eventType": "Dialog",
         "dialogPackageName": "_ResourceExample_Kizuna_Koakuma_LV3_003"
-      }
+      },
+      "postMissionsAfterPerformance": []
     }
   ],
   "merchants": [
@@ -8505,6 +8520,7 @@
       "postEvents": []
     },
     {
+      "label": "_ResourceExample_Kizuna_Koakuma_LV1_Upgrade_001_Event",
       "debugLabel": "小恶魔羁绊 LV1 前置",
       "scheduledEvent": {
         "eventData": {
@@ -8516,10 +8532,7 @@
           "triggerId": "_ResourceExample_Koakuma"
         }
       },
-      "postMissionsAfterPerformance": [
-        "_ResourceExample_Kizuna_Koakuma_LV1_Upgrade_001_Mission"
-      ],
-      "label": "_ResourceExample_Kizuna_Koakuma_LV1_Upgrade_001_Event",
+      "rewards": [],
       "postRewards": [
         {
           "rewardType": "GiveItem",
@@ -8528,9 +8541,14 @@
             11003
           ]
         }
-      ]
+      ],
+      "postMissionsAfterPerformance": [
+        "_ResourceExample_Kizuna_Koakuma_LV1_Upgrade_001_Mission"
+      ],
+      "postEvents": []
     },
     {
+      "label": "_ResourceExample_Kizuna_Koakuma_LV2_Upgrade_001_Event",
       "debugLabel": "小恶魔羁绊 LV2 前置",
       "scheduledEvent": {
         "eventData": {
@@ -8542,12 +8560,15 @@
           "triggerId": "_ResourceExample_Koakuma"
         }
       },
+      "rewards": [],
+      "postRewards": [],
       "postMissionsAfterPerformance": [
         "_ResourceExample_Kizuna_Koakuma_LV2_Upgrade_001_Mission"
       ],
-      "label": "_ResourceExample_Kizuna_Koakuma_LV2_Upgrade_001_Event"
+      "postEvents": []
     },
     {
+      "label": "_ResourceExample_Kizuna_Koakuma_LV3_Upgrade_001_Event",
       "debugLabel": "小恶魔羁绊 LV3 前置",
       "scheduledEvent": {
         "eventData": {
@@ -8559,12 +8580,15 @@
           "triggerId": "_ResourceExample_Koakuma"
         }
       },
+      "rewards": [],
+      "postRewards": [],
       "postMissionsAfterPerformance": [
         "_ResourceExample_Kizuna_Koakuma_LV3_Upgrade_001_Mission"
       ],
-      "label": "_ResourceExample_Kizuna_Koakuma_LV3_Upgrade_001_Event"
+      "postEvents": []
     },
     {
+      "label": "_ResourceExample_Kizuna_Koakuma_LV4_Upgrade_001_Event",
       "debugLabel": "小恶魔羁绊 LV4 前置",
       "scheduledEvent": {
         "eventData": {
@@ -8576,8 +8600,7 @@
           "triggerId": "_ResourceExample_Koakuma"
         }
       },
-      "postMissionsAfterPerformance": [],
-      "label": "_ResourceExample_Kizuna_Koakuma_LV4_Upgrade_001_Event",
+      "rewards": [],
       "postRewards": [
         {
           "rewardType": "GiveItem",
@@ -8585,8 +8608,14 @@
           "rewardIntArray": [
             9000
           ]
+        },
+        {
+          "rewardType": "UpgradeKizunaLevel",
+          "rewardId": "_ResourceExample_Koakuma"
         }
-      ]
+      ],
+      "postMissionsAfterPerformance": [],
+      "postEvents": []
     }
   ]
 }
