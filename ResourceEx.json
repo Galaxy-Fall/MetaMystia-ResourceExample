@@ -12369,7 +12369,7 @@
       "debugLabel": "新任务",
       "missionType": "Kitsuna",
       "sender": "_ResourceExample_Yuki",
-      "reciever": "_ResourceExample_Mai",
+      "reciever": "_ResourceExample_Yuki",
       "rewards": [],
       "finishConditions": [
         {
