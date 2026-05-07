@@ -2856,7 +2856,7 @@
         "lv1UpgradePrerequisiteEvent": "_ResourceExample_Kizuna_Yuki_LV1_Upgrade_001_Event",
         "lv2UpgradePrerequisiteEvent": "_ResourceExample_Kizuna_Yuki_LV2_Upgrade_001_Event",
         "lv3UpgradePrerequisiteEvent": "_ResourceExample_Kizuna_Yuki_LV3_Upgrade_001_Event",
-        "lv4UpgradePrerequisiteEvent": "_ResourceExample_Kizuna_Yuki_LV4_Upgrade_001_Event",
+        "lv4UpgradePrerequisiteEvent": "",
         "lv1Welcome": [],
         "lv2Welcome": [],
         "lv3Welcome": [],
@@ -3237,7 +3237,7 @@
         "lv1UpgradePrerequisiteEvent": "_ResourceExample_Mai_LV1_Upgrade_001_Event",
         "lv2UpgradePrerequisiteEvent": "_ResourceExample_Mai_LV2_Upgrade_001_Event",
         "lv3UpgradePrerequisiteEvent": "_ResourceExample_Mai_LV3_Upgrade_001_Event",
-        "lv4UpgradePrerequisiteEvent": "_ResourceExample_Mai_LV4_Upgrade_001_Event",
+        "lv4UpgradePrerequisiteEvent": "",
         "lv1Welcome": [],
         "lv2Welcome": [],
         "lv3Welcome": [],
@@ -12426,9 +12426,7 @@
         "eventType": "Dialog",
         "dialogPackageName": "_ResourceExample_Kizuna_Yuki_LV3_002"
       },
-      "postEvents": [
-        "_ResourceExample_Kizuna_Yuki_LV4_Upgrade_001_Event"
-      ],
+      "postEvents": [],
       "postMissionsAfterPerformance": []
     },
     {
@@ -12522,9 +12520,7 @@
         "eventType": "Dialog",
         "dialogPackageName": "_ResourceExample_Kizuna_Mai_LV3_002"
       },
-      "postEvents": [
-        "_ResourceExample_Mai_LV4_Upgrade_001_Event"
-      ],
+      "postEvents": [],
       "postMissionsAfterPerformance": []
     }
   ],
