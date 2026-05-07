@@ -3236,9 +3236,9 @@
         ]
       },
       "kizuna": {
-        "lv1UpgradePrerequisiteEvent": "_ResourceExample_Mai_LV1_Upgrade_001_Event",
-        "lv2UpgradePrerequisiteEvent": "_ResourceExample_Mai_LV2_Upgrade_001_Event",
-        "lv3UpgradePrerequisiteEvent": "_ResourceExample_Mai_LV3_Upgrade_001_Event",
+        "lv1UpgradePrerequisiteEvent": "_ResourceExample_Kizuna_Mai_LV1_Upgrade_001_Event",
+        "lv2UpgradePrerequisiteEvent": "_ResourceExample_Kizuna_Mai_LV2_Upgrade_001_Event",
+        "lv3UpgradePrerequisiteEvent": "_ResourceExample_Kizuna_Mai_LV3_Upgrade_001_Event",
         "lv4UpgradePrerequisiteEvent": "",
         "lv1Welcome": [],
         "lv2Welcome": [],
@@ -12447,7 +12447,7 @@
           "amount": 11018
         }
       ],
-      "label": "_ResourceExample_Mai_LV1_Upgrade_001_Mission",
+      "label": "_ResourceExample_Kizuna_Mai_LV1_Upgrade_001_Mission",
       "postRewards": [
         {
           "rewardType": "UpgradeKizunaLevel",
@@ -12460,7 +12460,7 @@
       },
       "postMissionsAfterPerformance": [],
       "postEvents": [
-        "_ResourceExample_Mai_LV2_Upgrade_001_Event"
+        "_ResourceExample_Kizuna_Mai_LV2_Upgrade_001_Event"
       ]
     },
     {
@@ -12479,7 +12479,7 @@
           "amount": 11019
         }
       ],
-      "label": "_ResourceExample_Mai_LV2_Upgrade_001_Mission",
+      "label": "_ResourceExample_Kizuna_Mai_LV2_Upgrade_001_Mission",
       "postRewards": [
         {
           "rewardType": "UpgradeKizunaLevel",
@@ -12491,7 +12491,7 @@
         "dialogPackageName": "_ResourceExample_Kizuna_Mai_LV2_002"
       },
       "postEvents": [
-        "_ResourceExample_Mai_LV3_Upgrade_001_Event"
+        "_ResourceExample_Kizuna_Mai_LV3_Upgrade_001_Event"
       ],
       "postMissionsAfterPerformance": []
     },
@@ -12511,7 +12511,7 @@
           "amount": 11020
         }
       ],
-      "label": "_ResourceExample_Mai_LV3_Upgrade_001_Mission",
+      "label": "_ResourceExample_Kizuna_Mai_LV3_Upgrade_001_Mission",
       "postRewards": [
         {
           "rewardType": "UpgradeKizunaLevel",
@@ -13057,7 +13057,7 @@
       "postEvents": []
     },
     {
-      "label": "_ResourceExample_Mai_LV1_Upgrade_001_Event",
+      "label": "_ResourceExample_Kizuna_Mai_LV1_Upgrade_001_Event",
       "debugLabel": "舞羁绊 LV1 前置",
       "scheduledEvent": {
         "eventData": {
@@ -13080,12 +13080,12 @@
         }
       ],
       "postMissionsAfterPerformance": [
-        "_ResourceExample_Mai_LV1_Upgrade_001_Mission"
+        "_ResourceExample_Kizuna_Mai_LV1_Upgrade_001_Mission"
       ],
       "postEvents": []
     },
     {
-      "label": "_ResourceExample_Mai_LV2_Upgrade_001_Event",
+      "label": "_ResourceExample_Kizuna_Mai_LV2_Upgrade_001_Event",
       "debugLabel": "舞羁绊 LV2 前置",
       "scheduledEvent": {
         "eventData": {
@@ -13108,12 +13108,12 @@
         }
       ],
       "postMissionsAfterPerformance": [
-        "_ResourceExample_Mai_LV2_Upgrade_001_Mission"
+        "_ResourceExample_Kizuna_Mai_LV2_Upgrade_001_Mission"
       ],
       "postEvents": []
     },
     {
-      "label": "_ResourceExample_Mai_LV3_Upgrade_001_Event",
+      "label": "_ResourceExample_Kizuna_Mai_LV3_Upgrade_001_Event",
       "debugLabel": "舞羁绊 LV3 前置",
       "scheduledEvent": {
         "eventData": {
@@ -13136,12 +13136,12 @@
         }
       ],
       "postMissionsAfterPerformance": [
-        "_ResourceExample_Mai_LV3_Upgrade_001_Mission"
+        "_ResourceExample_Kizuna_Mai_LV3_Upgrade_001_Mission"
       ],
       "postEvents": []
     },
     {
-      "label": "_ResourceExample_Mai_LV4_Upgrade_001_Event",
+      "label": "_ResourceExample_Kizuna_Mai_LV4_Upgrade_001_Event",
       "debugLabel": "舞羁绊 LV4 前置",
       "scheduledEvent": {
         "eventData": {
