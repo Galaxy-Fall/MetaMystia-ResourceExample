@@ -26,7 +26,7 @@
       "哈卡奈"
     ],
     "description": "MetaMystia 示例资源包 ResourceExample",
-    "version": "0.11.1",
+    "version": "0.12.0",
     "idRangeStart": 9000,
     "idRangeEnd": 12999,
     "idSignature": "aAOXzLVM3OMBvNSCeRVZ4cjaPu6sHwOIlfBB9XB+n2WODMrDb+eCuWZeE88KlXUIAj58ok7Dm2wsTTYJJ6pq8THMcm+FU/ryndeZfy5gCRnY7q3SzXn2s0ChmZKuTRkkWAU0f252a6Z9AXYu4tyv/h+kJGWXO1lFaVg8jErJqUMSlpNGGZe0tZABRPhX1oxPwYH82Lnvg0ct3REguZBEicC0/d5Lh1djvatUK3FdTR2h0rj0JdhInC2rcP8ymIg5txvsPcaA8cCbFdwyPgEaMue2NIjawUKpwLAl8mGwWVHrUTSxahkJ+MVJA7nLOGbYtvxmiyYMPQnDEVynBcPEeA==",
@@ -375,21 +375,6 @@
         "x": -10.81,
         "y": -19.8,
         "rotation": "Down"
-      },
-      "spellCard": {
-        "spellCardType": "Daiyousei",
-        "positiveSpell": {
-          "name": "Sgr符「爆肝mod」",
-          "description": "Sgr太好了，会送你十四夜喝",
-          "pid": 0,
-          "overrideSpell": -1
-        },
-        "negativeSpell": {
-          "name": "mETA符「偷懒」",
-          "description": "mETAm1KU太坏了，偷偷地把你的酒水偷走！",
-          "pid": 1,
-          "overrideSpell": -1
-        }
       },
       "hideInAlbum": false,
       "isParticular": false,
@@ -843,35 +828,6 @@
         "mapLabel": "ScarletMansion",
         "x": 25.7,
         "y": -21.46
-      },
-      "spellCard": {
-        "spellCardType": "Koakuma",
-        "positiveSpell": {
-          "name": "灵符「遗失典籍的回响」",
-          "description": "小恶魔从图书馆搬来一本百科全书，接下来 3 次稀客点单会告诉你具体tag",
-          "pid": 1,
-          "overrideSpell": -1
-        },
-        "negativeSpell": {
-          "name": "幻符「献给巴瓦鲁的镇魂曲」",
-          "description": "30秒内料理面板里的食材顺序被打乱，酒水柜里的酒水顺序被打乱，过滤功能不可用，交互的厨具变成随机厨具",
-          "pid": 3,
-          "overrideSpell": -1
-        },
-        "positiveBuff": {
-          "type": "Koakuma_Positive",
-          "name": "灵符「遗失典籍的回响」",
-          "description": "小恶魔从图书馆搬来一本百科全书，接下来 $a 次稀客点单会告诉你具体tag",
-          "spritePath": "",
-          "spriteFallback": "PhilosopherStone"
-        },
-        "negativeBuff": {
-          "type": "Koakuma_Negative",
-          "name": "幻符「献给巴瓦鲁的镇魂曲」",
-          "description": "$a 秒内料理面板里的食材顺序被打乱，酒水柜里的酒水顺序被打乱，过滤功能不可用，交互的厨具变成随机厨具",
-          "spritePath": "",
-          "spriteFallback": "Skill_Youmu_Punishment"
-        }
       },
       "hideInAlbum": false,
       "isParticular": false,
@@ -16421,5 +16377,39 @@
       "postMissionsAfterPerformance": [],
       "postEvents": []
     }
+  ],
+  "spells": [
+    {
+      "id": 11001,
+      "implementation": "Mai",
+      "vfxBundle": "assets/Spell/11001",
+      "positive": {
+        "name": "舞符「冰晶特调」",
+        "description": "接下来30秒，持续使用冰系魔法制作饮料，为在场普通订单提供对应的酒水",
+        "portrait": "assets/Character/11001/Portrait/0.png"
+      },
+      "negative": {
+        "name": "舞符「冰封酒宴」",
+        "description": "接下来30秒，所有顾客的点单料理必须额外包含「凉爽」tag，否则评价至多为「普通」",
+        "portrait": "assets/Character/11001/Portrait/5.png"
+      }
+    }
+  ],
+  "buffs": [
+    {
+      "id": 11002,
+      "name": "冰晶特调",
+      "description": "持续使用冰系魔法制作饮料，剩余$c秒",
+      "icon": "assets/Buff/11002.png"
+    },
+    {
+      "id": 11003,
+      "name": "冰封酒宴",
+      "description": "顾客对不含有$a的料理评价至多为$b，剩余$c秒",
+      "icon": "assets/Buff/11003.png"
+    }
+  ],
+  "assetBundles": [
+    { "path": "assets/Spell/11001" }
   ]
 }
