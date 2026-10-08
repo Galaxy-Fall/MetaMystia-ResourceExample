@@ -16384,12 +16384,12 @@
       "implementation": "Mai",
       "vfxBundle": "assets/Spell/11001",
       "positive": {
-        "name": "舞符「冰晶特调」",
+        "name": "冰符「冰晶特调」",
         "description": "接下来30秒，持续使用冰系魔法制作饮料，为在场普通订单提供对应的酒水",
         "portrait": "assets/Character/11001/Portrait/0.png"
       },
       "negative": {
-        "name": "舞符「冰封酒宴」",
+        "name": "霜符「冰川急冻」",
         "description": "接下来30秒，所有顾客的点单料理必须额外包含「凉爽」tag，否则评价至多为「普通」",
         "portrait": "assets/Character/11001/Portrait/5.png"
       }
